@@ -7,3 +7,7 @@
 Programming
 ---
 
+Artificial Intelligence
+
+[repo](https://github.com/marcoshsq/Artificial_Intelligence_Portfolio)
+
