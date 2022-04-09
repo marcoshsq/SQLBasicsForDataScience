@@ -22,6 +22,11 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
   + [](Placeholder)
   + [](Placeholder)
   + [](Placeholder)
+- [Data Visualization]()
+  + [](Placeholder)
+  + [](Placeholder)
+  + [](Placeholder)
+  + [](Placeholder)
 - [Data Science Courses Certificates]()
 - [Contact]()
 
@@ -51,6 +56,15 @@ For more Machine Learning or AI related projects, click on this link for my [Art
 - Placeholder
 
 For more Programming projects, click on this link for my [Programming Projects](https://github.com/marcoshsq/Programming_Projects) display repository.
+
+<h2 align="left">Data Visualization:</h2>
+
+- Placeholder
+- Placeholder
+- Placeholder
+- Placeholder
+
+For more Dataviz projects, click on this link for my [Tableau Profile](https://public.tableau.com/app/profile/marcoshsq).
 
 <h2 align="left">Data Science Courses Certificates:</h2>
 
