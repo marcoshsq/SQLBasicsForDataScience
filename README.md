@@ -4,6 +4,27 @@
 
 Hello, welcome to my Project Portfolio, my goal here is to highlight some of the most relevant projects I've developed related to programming and data science.
 
+<h2 align="left">Content:</h2>
+
+- [About]()
+- [Data Science/Analysis]()
+  + [](Placeholder)
+  + [](Placeholder)
+  + [](Placeholder)
+  + [](Placeholder)
+- [Machine Learning]()
+  + [](Placeholder)
+  + [](Placeholder)
+  + [](Placeholder)
+  + [](Placeholder)
+- [Programming]()
+  + [](Placeholder)
+  + [](Placeholder)
+  + [](Placeholder)
+  + [](Placeholder)
+- [Data Science Courses Certificates]()
+- [Contact]()
+
 <h2 align="left">Data Science/Analysis:</h2> 
 
 - Placeholder
@@ -31,7 +52,7 @@ For more Machine Learning or AI related projects, click on this link for my [Art
 
 For more Programming projects, click on this link for my [Programming Projects](https://github.com/marcoshsq/Programming_Projects) display repository.
 
-<h2 align="left">Data Science Certificates:</h2>
+<h2 align="left">Data Science Courses Certificates:</h2>
 
 I know the best way to demonstrate your skills is through finished projects, but as I like to say, you need to learn things somewhere and certificates and courses are at least an indicator of interest.
 
