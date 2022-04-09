@@ -6,29 +6,29 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 <h2 align="left">Content:</h2>
 
-- [About]()
-- [Data Science/Analysis]()
+- [About](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#about)
+- [Data Science/Analysis](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-scienceanalysis)
   + [](Placeholder)
   + [](Placeholder)
   + [](Placeholder)
   + [](Placeholder)
-- [Machine Learning]()
+- [Machine Learning](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#machine-learning)
   + [](Placeholder)
   + [](Placeholder)
   + [](Placeholder)
   + [](Placeholder)
-- [Programming]()
+- [Programming](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#programming)
   + [](Placeholder)
   + [](Placeholder)
   + [](Placeholder)
   + [](Placeholder)
-- [Data Visualization]()
+- [Data Visualization](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-visualization)
   + [](Placeholder)
   + [](Placeholder)
   + [](Placeholder)
   + [](Placeholder)
-- [Data Science Courses Certificates]()
-- [Contact]()
+- [Data Science Courses Certificates](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-science-courses-certificates)
+- [Contact](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#contact)
 
 <h2 align="left">Data Science/Analysis:</h2> 
 
@@ -81,3 +81,4 @@ So, if you're interested in seeing what field-relevant certificates I hold, I've
 - [Medium](https://medium.com/@marcoshsq)
 - [Kaggle](https://www.kaggle.com/marcoshsq)
 
+[Go to top](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#marcos-henrique---data-analysis-portfolio)
