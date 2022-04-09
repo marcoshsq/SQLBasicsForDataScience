@@ -1,4 +1,4 @@
-<h1 align="left">Marcos Henrique - Data Analysis Portfolio</h1>
+<h1 align="left">Marcos Henrique - Data Analysis Portfolio</h1> Work in progress u.u
 
 <h2 align="left">About:</h2>
 
@@ -32,37 +32,37 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 <h2 align="left">Data Science/Analysis:</h2> 
 
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: This project must be the one, with four features (Real Data, Modern Tech, Building Model and Deploy) | an amazing project... soon (づ｡◕‿‿◕｡)づ 
+- Note for me: This project must focus on EDA | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: This in viz | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: Try to develop a collaboratory one | an amazing project... soon (づ｡◕‿‿◕｡)づ
 
 For more Data Science/Analysis projects, click on this link for my [Data Analysis Projects](https://github.com/marcoshsq/Data_Analysis_Projects) display repository.
 
 <h2 align="left">Machine Learning:</h2>
 
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
 
 For more Machine Learning or AI related projects, click on this link for my [Artificial Intelligence Projects](https://github.com/marcoshsq/Artificial_Intelligence_Projects) display repository.
 
 <h2 align="left">Programming:</h2>
 
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: An automation project | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: An algorithm | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: A viz | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: A game u.u | an amazing project... soon (づ｡◕‿‿◕｡)づ
 
 For more Programming projects, click on this link for my [Programming Projects](https://github.com/marcoshsq/Programming_Projects) display repository.
 
 <h2 align="left">Data Visualization:</h2>
 
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
-- an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
 
 For more Dataviz projects, click on this link for my [Tableau Profile](https://public.tableau.com/app/profile/marcoshsq).
 
