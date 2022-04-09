@@ -13,27 +13,27 @@ My Social Media Links:
 
 <h3 align="left">Data Science/Analysis</h3> 
 
-- Template
-- Template
-- Template
-- Template
+- Placeholder
+- Placeholder
+- Placeholder
+- Placeholder
 
 For more Data Science/Analysis projects, click on this link for my [Data Analysis Projects](https://github.com/marcoshsq/Data_Analysis_Projects) display repository.
 
 <h3 align="left">Machine Learning</h3>
 
-- Template
-- Template
-- Template
-- Template
+- Placeholder
+- Placeholder
+- Placeholder
+- Placeholder
 
-For more Machine Learning projects, click on this link for my [Artificial Intelligence Projects](https://github.com/marcoshsq/Artificial_Intelligence_Projects) display repository.
+For more Machine Learning or AI related projects, click on this link for my [Artificial Intelligence Projects](https://github.com/marcoshsq/Artificial_Intelligence_Projects) display repository.
 
 <h3 align="left">Programming</h3>
 
-- Template
-- Template
-- Template
-- Template
+- Placeholder
+- Placeholder
+- Placeholder
+- Placeholder
 
-For more Programming projects, click on this link for myy [Programming Projects](https://github.com/marcoshsq/Programming_Projects) display repository.
+For more Programming projects, click on this link for my [Programming Projects](https://github.com/marcoshsq/Programming_Projects) display repository.
