@@ -1,8 +1,8 @@
-<h1 align="left">Marcos Henrique Portfolio | Work in progress (づ｡◕‿‿◕｡)づ</h1>
+<h1 align="left">Marcos Henrique Portfolio</h1>
 
 <h2 align="left">About:</h2>
 
-...
+Hello, welcome to my Project Portfolio, my goal here is to highlight some of the most relevant projects I've developed related to programming and data science.
 
 <h2 align="left">Data Science/Analysis:</h2> 
 
@@ -37,7 +37,7 @@ I know the best way to demonstrate your skills is through finished projects, but
 
 So, if you're interested in seeing what field-relevant certificates I hold, I've created a curriculum based on university courses in data science and statistics. In this repository are not only the courses, but also the certificates I obtained and the projects I developed during the courses.
 
-[Data Science Curriculum Portfolio](https://github.com/marcoshsq/DS_Degree_Curriculum_Portfolio)
+- [Data Science Curriculum Portfolio](https://github.com/marcoshsq/DS_Degree_Curriculum_Portfolio)
 
 <h2 align="left">Contact:</h2>
 
