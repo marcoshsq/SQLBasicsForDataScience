@@ -1,4 +1,4 @@
-<h1 align="left">Marcos Henrique - Data Analysis Portfolio</h1> Work in progress u.u
+<h1 align="left">Marcos Henrique - Data Analysis Portfolio</h1> Loading u.u
 
 <h2 align="left">About:</h2>
 
@@ -8,25 +8,25 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 - [About](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#about)
 - [Data Science/Analysis](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-scienceanalysis)
-  + [](Placeholder)
-  + [](Placeholder)
-  + [](Placeholder)
-  + [](Placeholder)
+  + [Placeholder](Placeholder)
+  + [Placeholder](Placeholder)
+  + [Placeholder](Placeholder)
+  + [Placeholder](Placeholder)
 - [Machine Learning](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#machine-learning)
-  + [](Placeholder)
-  + [](Placeholder)
-  + [](Placeholder)
-  + [](Placeholder)
+  + [Placeholder](Placeholder)
+  + [Placeholder](Placeholder)
+  + [Placeholder](Placeholder)
+  + [Placeholder](Placeholder)
 - [Programming](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#programming)
-  + [](Placeholder)
-  + [](Placeholder)
-  + [](Placeholder)
-  + [](Placeholder)
+  + [Placeholder](Placeholder)
+  + [Placeholder](Placeholder)
+  + [Placeholder](Placeholder)
+  + [Placeholder](Placeholder)
 - [Data Visualization](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-visualization)
-  + [](Placeholder)
-  + [](Placeholder)
-  + [](Placeholder)
-  + [](Placeholder)
+  + [Placeholder](Placeholder)
+  + [Placeholder](Placeholder)
+  + [Placeholder](Placeholder)
+  + [Placeholder](Placeholder)
 - [Data Science Courses Certificates](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-science-courses-certificates)
 - [Contact](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#contact)
 
@@ -41,10 +41,10 @@ For more Data Science/Analysis projects, click on this link for my [Data Analysi
 
 <h2 align="left">Machine Learning:</h2>
 
-- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
-- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
-- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
-- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- an amazing project... soon (づ｡◕‿‿◕｡)づ
+- an amazing project... soon (づ｡◕‿‿◕｡)づ
+- an amazing project... soon (づ｡◕‿‿◕｡)づ
+- an amazing project... soon (づ｡◕‿‿◕｡)づ
 
 For more Machine Learning or AI related projects, click on this link for my [Artificial Intelligence Projects](https://github.com/marcoshsq/Artificial_Intelligence_Projects) display repository.
 
@@ -59,10 +59,10 @@ For more Programming projects, click on this link for my [Programming Projects](
 
 <h2 align="left">Data Visualization:</h2>
 
-- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
-- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
-- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
-- Note for me: () | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- an amazing project... soon (づ｡◕‿‿◕｡)づ
+- an amazing project... soon (づ｡◕‿‿◕｡)づ
+- an amazing project... soon (づ｡◕‿‿◕｡)づ
+- an amazing project... soon (づ｡◕‿‿◕｡)づ
 
 For more Dataviz projects, click on this link for my [Tableau Profile](https://public.tableau.com/app/profile/marcoshsq).
 
