@@ -50,10 +50,10 @@ For more Machine Learning or AI related projects, click on this link for my [Art
 
 <h2 align="left">Programming:</h2>
 
-- Note for me: An automation project | an amazing project... soon (づ｡◕‿‿◕｡)づ
-- Note for me: An algorithm | an amazing project... soon (づ｡◕‿‿◕｡)づ
-- Note for me: A viz | an amazing project... soon (づ｡◕‿‿◕｡)づ
-- Note for me: A game u.u | an amazing project... soon (づ｡◕‿‿◕｡)づ
+- Note for me: An automation project 
+- Note for me: An algorithm 
+- Note for me: A viz
+- Note for me: A game 
 
 For more Programming projects, click on this link for my [Programming Projects](https://github.com/marcoshsq/Programming_Projects) display repository.
 
