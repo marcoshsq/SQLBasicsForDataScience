@@ -1,4 +1,4 @@
-<h1 align="left">Marcos Henrique - Data Analysis Portfolio</h1> Loading u.u
+<h1 align="left">Marcos Henrique - Portfolio</h1>
 
 <h2 align="left">About:</h2>
 
