@@ -80,6 +80,7 @@ So, if you're interested in seeing what field-relevant certificates I hold, I've
 - [Twitter](https://twitter.com/marcoshsq)
 - [Medium](https://medium.com/@marcoshsq)
 - [Kaggle](https://www.kaggle.com/marcoshsq)
+- [Credly - Badges](https://www.credly.com/users/marcoshsq)
 
 <div align="right">
   
