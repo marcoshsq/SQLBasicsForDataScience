@@ -1,4 +1,18 @@
-<h1 align="left">Marcos Henrique - Portfolio</h1>
+<p align="center">
+  <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
+    <img src="https://cdn-icons-png.flaticon.com/512/1643/1643996.png" alt="Developer Roadmap" width="120" height="120">
+  </a>
+</p>
+  <h2 align="center">Marcos Henrique - Portfolio</h2>
+ <div align="center"> 
+  <a href="https://twitter.com/marcoshsq" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/marcoshsq/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href="https://medium.com/@marcoshsq" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" target="_blank"></a> 
+  <a href="https://www.kaggle.com/marcoshsq" target="_blank"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" target="_blank"></a>
+</div>
+<br>
+
+---
 
 <h2 align="left">About:</h2>
 
