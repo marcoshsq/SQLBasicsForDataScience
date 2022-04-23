@@ -24,21 +24,13 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 - [Data Science/Analytics Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-scienceanalysis)
   + [Placeholder](Placeholder)
   + [Placeholder](Placeholder)
-  + [Placeholder](Placeholder)
-  + [Placeholder](Placeholder)
 - [Machine Learning Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#machine-learning)
-  + [Placeholder](Placeholder)
-  + [Placeholder](Placeholder)
   + [Placeholder](Placeholder)
   + [Placeholder](Placeholder)
 - [Programming Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#programming)
   + [Placeholder](Placeholder)
   + [Placeholder](Placeholder)
-  + [Placeholder](Placeholder)
-  + [Placeholder](Placeholder)
 - [Data Visualization Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-visualization)
-  + [Placeholder](Placeholder)
-  + [Placeholder](Placeholder)
   + [Placeholder](Placeholder)
   + [Placeholder](Placeholder)
 - [Data Science Courses Certificates](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-science-courses-certificates)
@@ -48,15 +40,11 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 - Placeholder 
 - Placeholder
-- Placeholder
-- Placeholder
 
 For more Data Science/Analysis projects, click on this link for my [Data Analysis Projects](https://github.com/marcoshsq/Data_Analysis_Projects) display repository.
 
 <h2 align="left">Machine Learning:</h2>
 
-- Placeholder
-- Placeholder
 - Placeholder
 - Placeholder
 
@@ -66,15 +54,11 @@ For more Machine Learning or AI related projects, click on this link for my [Art
 
 - Placeholder
 - Placeholder
-- Placeholder
-- Placeholder 
 
 For more Programming projects, click on this link for my [Programming Projects](https://github.com/marcoshsq/Programming_Projects) display repository.
 
 <h2 align="left">Data Visualization:</h2>
 
-- Placeholder
-- Placeholder
 - Placeholder
 - Placeholder
 
