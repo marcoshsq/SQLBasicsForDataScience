@@ -20,19 +20,18 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 <h2 align="left">Content:</h2>
 
-- [About](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#about)
 - [Data Science/Analytics Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-scienceanalysis)
-  + [Placeholder](Placeholder)
-  + [Placeholder](Placeholder)
+  + []()
+  + []()
 - [Machine Learning Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#machine-learning)
-  + [Placeholder](Placeholder)
-  + [Placeholder](Placeholder)
+  + []()
+  + []()
 - [Programming Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#programming)
-  + [Placeholder](Placeholder)
-  + [Placeholder](Placeholder)
+  + []()
+  + []()
 - [Data Visualization Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-visualization)
-  + [Placeholder](Placeholder)
-  + [Placeholder](Placeholder)
+  + []()
+  + []()
 - [Data Science Courses Certificates](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-science-courses-certificates)
 - [Contact](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#contact)
 
