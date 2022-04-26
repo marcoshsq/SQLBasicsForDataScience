@@ -67,7 +67,11 @@ For more Dataviz projects, click on this link for my [Tableau Profile](https://p
 
 I know the best way to demonstrate your skills is through finished projects, but as I like to say, you need to learn things somewhere and certificates and courses are at least an indicator of interest.
 
-So, if you're interested in seeing what field-relevant certificates I hold, I've created a curriculum based on university courses in data science and statistics. In this repository aren't only the certificates, but also the courses I took and the roadmaps I've followed, along with the projects developed.
+Here are all the certificates I've obtained from IT-related courses or other relevant courses I've taken.
+
+- [Courses Certificates](https://github.com/marcoshsq/Courses_Certificates)
+
+However, something cooler I did. , if you're interested, I've created a curriculum based on university courses in data science and statistics. In this repository aren't only the certificates, but also the courses I took and the roadmaps I've followed, along with the projects developed.
 
 - [Marcos Henrique - Data Science Undergraduate Curriculum](https://github.com/marcoshsq/My_Degree_in_Data_Science)
 
