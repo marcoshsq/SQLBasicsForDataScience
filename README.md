@@ -38,7 +38,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 ---
 
 <p align="center">
-  <a href="https://github.com/marcoshsq/Artificial_Intelligence_Projects">
+  <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
     <img src="https://mohdsaberi.net/img/icon/ds.png" alt="Developer Roadmap" width="120" height="120">
   </a>
 </p>
@@ -50,7 +50,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 ---
 
 <p align="center">
-  <a href="https://github.com/marcoshsq/Artificial_Intelligence_Projects">
+  <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
     <img src="https://www.pngkey.com/png/full/96-967444_download-the-presentation-artificial-intelligence-ai-icon-png.png" alt="Developer Roadmap" width="120" height="120">
   </a>
 </p>
@@ -62,7 +62,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 ---
 
 <p align="center">
-  <a href="https://github.com/marcoshsq/Programming_Projects">
+  <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
     <img src="https://icon-library.com/images/programming-icon-png/programming-icon-png-6.jpg" alt="Developer Roadmap" width="120" height="120">
   </a>
 </p>
@@ -74,7 +74,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 ---
 
 <p align="center">
-  <a href="https://github.com/marcoshsq/Artificial_Intelligence_Projects">
+  <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
     <img src="https://cdn-icons-png.flaticon.com/512/1643/1643996.png" alt="Developer Roadmap" width="120" height="120">
   </a>
 </p>
