@@ -20,13 +20,13 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 <h2 align="left">Content:</h2>
 
-- [Data Science/Analytics Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-scienceanalysis)
+- [Data Science Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-science-projects)
   + []()
   + []()
-- [Machine Learning Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#machine-learning)
+- [Machine Learning Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#artificial-intelligence-projects)
   + []()
   + []()
-- [Programming Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#programming)
+- [Programming Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#programming-projects)
   + []()
   + []()
 - [Data Visualization Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-visualization)
