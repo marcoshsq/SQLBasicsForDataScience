@@ -35,33 +35,57 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 - [Data Science Courses Certificates](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-science-courses-certificates)
 - [Contact](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#contact)
 
-<h2 align="left">Data Science/Analysis:</h2> 
+---
 
-- Placeholder 
-- Placeholder
+<p align="center">
+  <a href="https://github.com/marcoshsq/Artificial_Intelligence_Projects">
+    <img src="https://www.pngkey.com/png/full/96-967444_download-the-presentation-artificial-intelligence-ai-icon-png.png" alt="Developer Roadmap" width="120" height="120">
+  </a>
+</p>
+  <h2 align="center">Data Science Projects</h2>
 
-For more Data Science/Analysis projects, click on this link for my [Data Analysis Projects](https://github.com/marcoshsq/Data_Analysis_Projects) display repository.
+- [Placeholder]()
+- [Placeholder]()
 
-<h2 align="left">Machine Learning:</h2>
+---
 
-- Placeholder
-- Placeholder
+<p align="center">
+  <a href="https://github.com/marcoshsq/Artificial_Intelligence_Projects">
+    <img src="https://www.pngkey.com/png/full/96-967444_download-the-presentation-artificial-intelligence-ai-icon-png.png" alt="Developer Roadmap" width="120" height="120">
+  </a>
+</p>
+  <h2 align="center">Artificial Intelligence Projects</h2>
 
-For more Machine Learning or AI related projects, click on this link for my [Artificial Intelligence Projects](https://github.com/marcoshsq/Artificial_Intelligence_Projects) display repository.
+- [Placeholder]()
+- [Placeholder]()
 
-<h2 align="left">Programming:</h2>
+---
 
-- Placeholder
-- Placeholder
+<p align="center">
+  <a href="https://github.com/marcoshsq/Programming_Projects">
+    <img src="https://icon-library.com/images/programming-icon-png/programming-icon-png-6.jpg" alt="Developer Roadmap" width="120" height="120">
+  </a>
+</p>
+  <h2 align="center">Programming Projects</h2>
 
-For more Programming projects, click on this link for my [Programming Projects](https://github.com/marcoshsq/Programming_Projects) display repository.
+- [Placeholder]()
+- [Placeholder]()
 
-<h2 align="left">Data Visualization:</h2>
+---
 
-- Placeholder
-- Placeholder
+<p align="center">
+  <a href="https://github.com/marcoshsq/Artificial_Intelligence_Projects">
+    <img src="https://www.pngkey.com/png/full/96-967444_download-the-presentation-artificial-intelligence-ai-icon-png.png" alt="Developer Roadmap" width="120" height="120">
+  </a>
+</p>
+  <h2 align="center">Data Visualization</h2>
+
+- [Placeholder]()
+- [Placeholder]()
 
 For more Dataviz projects, click on this link for my [Tableau Profile](https://public.tableau.com/app/profile/marcoshsq).
+
+---
 
 <h2 align="left">Data Science Courses Certificates:</h2>
 
@@ -88,3 +112,5 @@ However, something cooler I did. , if you're interested, I've created a curricul
 [Go to top](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#marcos-henrique---portfolio)
  
 </div>
+
+---
