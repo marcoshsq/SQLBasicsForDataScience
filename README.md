@@ -18,7 +18,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 - [Data Science Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-science-projects)
   + []()
   + []()
-- [Machine Learning Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#artificial-intelligence-projects)
+- [Artificial Intelligence Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#artificial-intelligence-projects)
   + []()
   + []()
 - [Programming Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#programming-projects)
