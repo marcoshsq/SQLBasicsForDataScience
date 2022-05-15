@@ -39,7 +39,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 <p align="center">
   <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
-    <img src="https://mohdsaberi.net/img/icon/ds.png" alt="Data Analytics" width="80" height="80">
+    <img src="https://mohdsaberi.net/img/icon/ds.png" alt="Data Analytics" width="100" height="100">
   </a>
 </p>
   <h2 align="center">Data Analytics Projects</h2>
@@ -58,7 +58,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 <p align="center">
   <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
-    <img src="https://www.pngkey.com/png/full/96-967444_download-the-presentation-artificial-intelligence-ai-icon-png.png" alt="AI" width="80" height="80">
+    <img src="https://www.pngkey.com/png/full/96-967444_download-the-presentation-artificial-intelligence-ai-icon-png.png" alt="AI" width="100" height="100">
   </a>
 </p>
   <h2 align="center">Artificial Intelligence Projects</h2>
@@ -77,7 +77,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 <p align="center">
   <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
-    <img src="https://icon-library.com/images/programming-icon-png/programming-icon-png-6.jpg" alt="Code" width="80" height="80">
+    <img src="https://icon-library.com/images/programming-icon-png/programming-icon-png-6.jpg" alt="Code" width="100" height="100">
   </a>
 </p>
   <h2 align="center">Programming Projects</h2>
@@ -96,7 +96,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 <p align="center">
   <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
-    <img src="https://cdn-icons-png.flaticon.com/512/1643/1643996.png" alt="DataViz" width="80" height="80">
+    <img src="https://cdn-icons-png.flaticon.com/512/1643/1643996.png" alt="DataViz" width="100" height="100">
   </a>
 </p>
   <h2 align="center">Data Visualization</h2>
@@ -117,7 +117,7 @@ For more Dataviz projects, click on this link for my [Tableau Profile](https://p
 
 <p align="center">
   <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
-    <img src="https://www.freeiconspng.com/uploads/market-research-icon-16.png" alt="Developer Roadmap" width="120" height="120">
+    <img src="https://www.freeiconspng.com/uploads/market-research-icon-16.png" alt="Certs" width="100" height="100">
   </a>
 </p>
   <h2 align="center">Courses Certificates:</h2>
