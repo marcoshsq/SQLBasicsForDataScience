@@ -16,23 +16,10 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 <h2 align="left">Content:</h2>
 
 - [Data Analytics Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-analytics-projects)
-  + []()
-  + [Financial Analysis w/ Python](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#financial-analysis-w-python)
-
 - [Artificial Intelligence Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#artificial-intelligence-projects)
-  + []()
-  + [Machine Learning Models](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#machine-learning-models)
-
 - [Programming Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#programming-projects)
-  + []()
-  + []()
-
 - [Data Visualization Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-visualization)
-  + []()
-  + []()
-
 - [Courses Certificates](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#courses-certificates)
-
 - [Contact](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#contact)
 
 ---
