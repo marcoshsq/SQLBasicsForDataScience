@@ -39,8 +39,9 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 </p>
   <h2 align="center">Data Science Projects</h2>
 
-- [Placeholder]()
-- [Financial Analysis w/ Python](https://github.com/marcoshsq/Python_Financial_Analysis)
+### [Placeholder]()
+
+### [Financial Analysis w/ Python](https://github.com/marcoshsq/Python_Financial_Analysis)
 
 <div align="right">
   
@@ -57,8 +58,9 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 </p>
   <h2 align="center">Artificial Intelligence Projects</h2>
 
-- [Placeholder]()
-- [Placeholder]()
+### [Placeholder]()
+
+### [Placeholder]()
 
 <div align="right">
   
@@ -75,8 +77,9 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 </p>
   <h2 align="center">Programming Projects</h2>
 
-- [Placeholder]()
-- [Placeholder]()
+### [Placeholder]()
+
+### [Placeholder]()
 
 <div align="right">
   
@@ -93,8 +96,9 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 </p>
   <h2 align="center">Data Visualization</h2>
 
-- [Placeholder]()
-- [Placeholder]()
+### [Placeholder]()
+
+### [Placeholder]()
 
 For more Dataviz projects, click on this link for my [Tableau Profile](https://public.tableau.com/app/profile/marcoshsq).
 
