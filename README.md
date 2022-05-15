@@ -116,7 +116,7 @@ Here are all the certificates I've obtained from IT-related courses or other rel
 
 However, something cooler I did. , if you're interested, I've created a curriculum based on university courses in data science and statistics. In this repository aren't only the certificates, but also the courses I took and the roadmaps I've followed, along with the projects developed.
 
-- [Data Science Undergraduate Curriculum](https://github.com/marcoshsq/My_Degree_in_Data_Science)
+- [Data Science Undergraduate Curriculum](https://github.com/marcoshsq/Data_Science_Undergraduate_Curriculum)
 
 <h2 align="left">Contact:</h2>
 
