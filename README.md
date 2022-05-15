@@ -15,7 +15,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 <h2 align="left">Content:</h2>
 
-- [Data Science Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-science-projects)
+- [Data Analytics Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-analytics-projects)
   + []()
   + []()
 - [Artificial Intelligence Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#artificial-intelligence-projects)
@@ -37,7 +37,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
     <img src="https://mohdsaberi.net/img/icon/ds.png" alt="Developer Roadmap" width="120" height="120">
   </a>
 </p>
-  <h2 align="center">Data Science Projects</h2>
+  <h2 align="center">Data Analytics Projects</h2>
 
 ### [Placeholder]()
 
