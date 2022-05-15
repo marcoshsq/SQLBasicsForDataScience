@@ -27,7 +27,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 - [Data Visualization Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-visualization)
   + []()
   + []()
-- [Data Science Courses Certificates](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-science-courses-certificates)
+- [Courses Certificates](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#courses-certificates)
 - [Contact](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#contact)
 
 ---
@@ -40,7 +40,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
   <h2 align="center">Data Science Projects</h2>
 
 - [Placeholder]()
-- [Placeholder]()
+- [Financial Analysis w/ Python](https://github.com/marcoshsq/Python_Financial_Analysis)
 
 <div align="right">
   
@@ -106,7 +106,7 @@ For more Dataviz projects, click on this link for my [Tableau Profile](https://p
 
 ---
 
-<h2 align="left">Data Science Courses Certificates:</h2>
+<h2 align="left">Courses Certificates:</h2>
 
 I know the best way to demonstrate your skills is through finished projects, but as I like to say, you need to learn things somewhere and certificates and courses are at least an indicator of interest.
 
