@@ -115,7 +115,12 @@ For more Dataviz projects, click on this link for my [Tableau Profile](https://p
 
 ---
 
-<h2 align="left">Courses Certificates:</h2>
+<p align="center">
+  <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
+    <img src="https://www.freeiconspng.com/uploads/market-research-icon-16.png" alt="Developer Roadmap" width="120" height="120">
+  </a>
+</p>
+  <h2 align="center">Courses Certificates:</h2>
 
 I know the best way to demonstrate your skills is through finished projects, but as I like to say, you need to learn things somewhere and certificates and courses are at least an indicator of interest.
 
