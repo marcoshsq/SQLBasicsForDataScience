@@ -30,10 +30,10 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
   </a>
 </p>
   <h2 align="center">Data Analytics Projects</h2>
-
-### [Placeholder]()
-
+  
 ### [Financial Analysis w/ Python](https://github.com/marcoshsq/Python_Financial_Analysis)
+
+### [IBM: Data Science Certificate Projects](https://github.com/marcoshsq/IBM_Data_Science_Certificate_Projects)
 
 <div align="right">
   
@@ -71,7 +71,7 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 ### [Placeholder]()
 
-### [Placeholder]()
+### [Python for Everybody](https://github.com/marcoshsq/Python_for_Everybody)
 
 <div align="right">
   
