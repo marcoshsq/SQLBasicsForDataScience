@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
+    <img src="https://mohdsaberi.net/img/icon/ds.png" alt="Data Analytics" width="100" height="100"> <img src="https://www.pngkey.com/png/full/96-967444_download-the-presentation-artificial-intelligence-ai-icon-png.png" alt="AI" width="100" height="100"> <img src="https://cdn-icons-png.flaticon.com/512/1643/1643996.png" alt="DataViz" width="100" height="100"> <img src="https://icon-library.com/images/programming-icon-png/programming-icon-png-6.jpg" alt="Code" width="100" height="100">
+  </a>
+</p>  
   <h2 align="center">Marcos Henrique - Portfolio</h2>
  <div align="center"> 
   <a href="https://twitter.com/marcoshsq" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
@@ -24,75 +29,6 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 ---
 
-<p align="center">
-  <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
-    <img src="https://mohdsaberi.net/img/icon/ds.png" alt="Data Analytics" width="100" height="100">
-  </a>
-</p>
-  <h2 align="center">Data Analytics Projects</h2>
-  
-### [Financial Analysis w/ Python](https://github.com/marcoshsq/Python_Financial_Analysis)
-
-### [IBM: Data Science Certificate Projects](https://github.com/marcoshsq/IBM_Data_Science_Certificate_Projects)
-
-<div align="right">
-  
-[Go to top](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#marcos-henrique---portfolio)
- 
-</div>
-
----
-
-<p align="center">
-  <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
-    <img src="https://www.pngkey.com/png/full/96-967444_download-the-presentation-artificial-intelligence-ai-icon-png.png" alt="AI" width="100" height="100">
-  </a>
-</p>
-  <h2 align="center">Artificial Intelligence Projects</h2>
-
-### [Placeholder]()
-
-### [Machine Learning Models](https://github.com/marcoshsq/Machine_Learning_Models)
-
-<div align="right">
-  
-[Go to top](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#marcos-henrique---portfolio)
- 
-</div>
-
----
-
-<p align="center">
-  <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
-    <img src="https://icon-library.com/images/programming-icon-png/programming-icon-png-6.jpg" alt="Code" width="100" height="100">
-  </a>
-</p>
-  <h2 align="center">Programming Projects</h2>
-
-### [Placeholder]()
-
-### [Python for Everybody](https://github.com/marcoshsq/Python_for_Everybody)
-
-<div align="right">
-  
-[Go to top](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#marcos-henrique---portfolio)
- 
-</div>
-
----
-
-<p align="center">
-  <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
-    <img src="https://cdn-icons-png.flaticon.com/512/1643/1643996.png" alt="DataViz" width="100" height="100">
-  </a>
-</p>
-  <h2 align="center">Data Visualization</h2>
-
-### [Placeholder]()
-
-### [Placeholder]()
-
-For more Dataviz projects, click on this link for my [Tableau Profile](https://public.tableau.com/app/profile/marcoshsq).
 
 <div align="right">
   
@@ -122,6 +58,7 @@ However, something cooler I did. , if you're interested, I've created a curricul
 <h2 align="left">Contact:</h2>
 
 - [Linkedin](https://www.linkedin.com/in/marcoshsq/)
+- [Tableau Profile](https://public.tableau.com/app/profile/marcoshsq)
 - [Twitter](https://twitter.com/marcoshsq)
 - [Medium](https://medium.com/@marcoshsq)
 - [Kaggle](https://www.kaggle.com/marcoshsq)
