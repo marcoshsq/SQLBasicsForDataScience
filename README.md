@@ -1,6 +1,9 @@
 <p align="center">
   <a href="https://github.com/marcoshsq/Marcos_Henrique_Portfolio">
-    <img src="https://mohdsaberi.net/img/icon/ds.png" alt="Data Analytics" width="100" height="100"> <img src="https://www.pngkey.com/png/full/96-967444_download-the-presentation-artificial-intelligence-ai-icon-png.png" alt="AI" width="100" height="100"> <img src="https://cdn-icons-png.flaticon.com/512/1643/1643996.png" alt="DataViz" width="100" height="100"> <img src="https://icon-library.com/images/programming-icon-png/programming-icon-png-6.jpg" alt="Code" width="100" height="100">
+    <img src="https://www.pngkey.com/png/full/96-967444_download-the-presentation-artificial-intelligence-ai-icon-png.png" alt="AI" width="100" height="100"> 
+    <!--<img src="https://icon-library.com/images/programming-icon-png/programming-icon-png-6.jpg" alt="Code" width="100" height="100">
+    <img src="https://mohdsaberi.net/img/icon/ds.png" alt="Data Analytics" width="100" height="100">
+    <img src="https://cdn-icons-png.flaticon.com/512/1643/1643996.png" alt="DataViz" width="100" height="100"> -->
   </a>
 </p>  
   <h2 align="center">Marcos Henrique - Portfolio</h2>
@@ -20,15 +23,13 @@ Hello, welcome to my Project Portfolio, my goal here is to highlight some of the
 
 <h2 align="left">Content:</h2>
 
-- [Data Analytics Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-analytics-projects)
-- [Artificial Intelligence Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#artificial-intelligence-projects)
-- [Programming Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#programming-projects)
-- [Data Visualization Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#data-visualization)
+- [Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#projects)
 - [Courses Certificates](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#courses-certificates)
 - [Contact](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#contact)
 
 ---
 
+  <h2 align="center">Projects:</h2>
 
 <div align="right">
   
