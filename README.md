@@ -17,11 +17,11 @@
 
 ---
 
-<h2 align="left">About:</h2>
+<h2 align="center">About:</h2>
 
 Hello, welcome to my Project Portfolio, my goal here is to highlight some of the most relevant projects I've developed related to programming and data science.
 
-<h2 align="left">Content:</h2>
+<h2 align="center">Content:</h2>
 
 - [Projects](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#projects)
 - [Courses Certificates](https://github.com/marcoshsq/Marcos_Henrique_Portfolio#courses-certificates)
@@ -56,7 +56,7 @@ However, something cooler I did. , if you're interested, I've created a curricul
 
 - [Data Science Undergraduate Curriculum](https://github.com/marcoshsq/Data_Science_Undergraduate_Curriculum)
 
-<h2 align="left">Contact:</h2>
+<h2 align="center">Contact:</h2>
 
 - [Linkedin](https://www.linkedin.com/in/marcoshsq/)
 - [Tableau Profile](https://public.tableau.com/app/profile/marcoshsq)
