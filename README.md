@@ -24,16 +24,31 @@ This repository contains the projects and assignments developed during the Learn
 
 ### [Course 01]() - Getting Started w/ Python.
 
-
+    Selecting & Retrieving Data with SQL;
+    Filtering, Sorting, and Calculating Data with SQL;
+    Subqueries and Joins in SQL;
+    Modifying and Analyzing Data with SQL.
 
 ### [Course 02]() - Python Data Structures.
 
+    Data of Unknown Quality;
+    Creating Clean Datasets;
+    SQL Problem Solving;
+    Case Study: AB Testing.
 
 ### [Course 03]() - Using Python to Access Web Data.
 
+    Introduction to Spark;
+    Spark Core Concepts;
+    Engineering Data Pipelines;
+    Data Lakes, Warehouses and Lakehouses.
 
 ### [Course 04]() - Capstone.
 
+    Project Proposal and Data Selection/Preparation;
+    Descriptive Stats & Understanding Your Data;
+    Beyond Descriptive Stats (Dive Deeper/Go Broader);
+    Presenting Your Findings (Storytelling).
 
 ---
 
