@@ -50,12 +50,14 @@ Learning goals: ``A/B Testing``, ``Query String``, ``Data Analysis``, ``Predicti
 
 ### [Course 03]() - Distributed Computing with Spark SQL.
 
-    Introduction to Spark;
-    Spark Core Concepts;
-    Engineering Data Pipelines;
-    Data Lakes, Warehouses and Lakehouses.
+    Week 01: Introduction to Spark;
+    Week 02: Spark Core Concepts;
+    Week 03: Engineering Data Pipelines;
+    Week 04: Data Lakes, Warehouses and Lakehouses.
 
-Learning goals:
+This is the third specialization course and has a full focus on Big Data and Apache Spark.
+
+Learning goals: ``Apache Spark``, ``Delta Lake``, ``SQL``.
 
 ### [Course 04]() - SQL for Data Science Capstone Project.
 
@@ -64,7 +66,9 @@ Learning goals:
     Beyond Descriptive Stats (Dive Deeper/Go Broader);
     Presenting Your Findings (Storytelling).
 
-Learning goals:
+the Capstone Project of the Specialization.
+
+Learning goals: ``Presentation Skills``, ``Data Analysis``, ``SQL``, ``creating metrics``,``Exploratory Data Analysis``.
 
 ---
 
