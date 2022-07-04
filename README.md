@@ -20,6 +20,8 @@ This repository contains the projects and assignments developed during the Learn
 
 Below are links to the directories with the projects and assignments developed, along with a brief description of what has been studied in the course.
 
+Learning goals: ``Data Analysis``, ``Apache Spark``, ``Delta Lake``, ``SQL``, ``Data Science``, ``Sqlite``, ``A/B Testing``, ``Query String``, ``Predictive Analytics``, ``Presentation Skills``, ``creating metrics``, ``Exploratory Data Analysis``.
+
 ---
 
 ## Projects, assignments and exercises:
@@ -35,26 +37,34 @@ This is the first course of the specialization, presenting the fundamentals of r
 
 Learning goals: ``Data Science``, ``Data Analysis``, ``Sqlite``, ``SQL``.
 
-### [Course 02]() - Python Data Structures.
+### [Course 02]() - Data Wrangling, Analysis and AB Testing with SQL.
 
-    Data of Unknown Quality;
-    Creating Clean Datasets;
-    SQL Problem Solving;
-    Case Study: AB Testing.
+    Week 01: Data of Unknown Quality;
+    Week 02: Creating Clean Datasets;
+    Week 03: SQL Problem Solving;
+    Week 04: Case Study: AB Testing.
 
-### [Course 03]() - Using Python to Access Web Data.
+This is the second course of the specialization. The aim of this course is to deepen SQL skills, using four data science case studies, to practice validating and cleaning data, create a simple test framework to handle A/B Testing, and finally, use SQL to perform data analysis.
+
+Learning goals: ``A/B Testing``, ``Query String``, ``Data Analysis``, ``Predictive Analytics``, ``SQL``.
+
+### [Course 03]() - Distributed Computing with Spark SQL.
 
     Introduction to Spark;
     Spark Core Concepts;
     Engineering Data Pipelines;
     Data Lakes, Warehouses and Lakehouses.
 
-### [Course 04]() - Capstone.
+Learning goals:
+
+### [Course 04]() - SQL for Data Science Capstone Project.
 
     Project Proposal and Data Selection/Preparation;
     Descriptive Stats & Understanding Your Data;
     Beyond Descriptive Stats (Dive Deeper/Go Broader);
     Presenting Your Findings (Storytelling).
+
+Learning goals:
 
 ---
 
