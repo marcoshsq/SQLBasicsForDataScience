@@ -26,7 +26,7 @@ Learning goals: ``Data Analysis``, ``Apache Spark``, ``Delta Lake``, ``SQL``, ``
 
 ## Projects, assignments and exercises:
 
-### [Course 01]() - SQL for Data Science.
+## [Course 01]() - SQL for Data Science.
 
     Week 01: Getting Started and Selecting & Retrieving Data with SQL;
     Week 02: Filtering, Sorting, and Calculating Data with SQL;
@@ -37,7 +37,7 @@ This is the first course of the specialization, presenting the fundamentals of r
 
 Learning goals: ``Data Science``, ``Data Analysis``, ``Sqlite``, ``SQL``.
 
-### [Course 02]() - Data Wrangling, Analysis and AB Testing with SQL.
+## [Course 02]() - Data Wrangling, Analysis and AB Testing with SQL.
 
     Week 01: Data of Unknown Quality;
     Week 02: Creating Clean Datasets;
@@ -48,7 +48,7 @@ This is the second course of the specialization. The aim of this course is to de
 
 Learning goals: ``A/B Testing``, ``Query String``, ``Data Analysis``, ``Predictive Analytics``, ``SQL``.
 
-### [Course 03]() - Distributed Computing with Spark SQL.
+## [Course 03]() - Distributed Computing with Spark SQL.
 
     Week 01: Introduction to Spark;
     Week 02: Spark Core Concepts;
@@ -59,7 +59,7 @@ This is the third specialization course and has a full focus on Big Data and Apa
 
 Learning goals: ``Apache Spark``, ``Delta Lake``, ``SQL``.
 
-### [Course 04]() - SQL for Data Science Capstone Project.
+## [Course 04]() - SQL for Data Science Capstone Project.
 
     Project Proposal and Data Selection/Preparation;
     Descriptive Stats & Understanding Your Data;
