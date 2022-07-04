@@ -18,16 +18,22 @@ This repository contains the projects and assignments developed during the Learn
 03. [Distributed Computing with Spark SQL](https://www.coursera.org/learn/spark-sql?specialization=learn-sql-basics-data-science)
 04. [SQL for Data Science Capstone Project](https://www.coursera.org/learn/sql-data-science-capstone?specialization=learn-sql-basics-data-science)
 
+Below are links to the directories with the projects and assignments developed, along with a brief description of what has been studied in the course.
+
 ---
 
 ## Projects, assignments and exercises:
 
-### [Course 01]() - Getting Started w/ Python.
+### [Course 01]() - SQL for Data Science.
 
-    Selecting & Retrieving Data with SQL;
-    Filtering, Sorting, and Calculating Data with SQL;
-    Subqueries and Joins in SQL;
-    Modifying and Analyzing Data with SQL.
+    Week 01: Getting Started and Selecting & Retrieving Data with SQL;
+    Week 02: Filtering, Sorting, and Calculating Data with SQL;
+    Week 03: Subqueries and Joins in SQL;
+    Week 04: Modifying and Analyzing Data with SQL.
+
+This is the first course of the specialization, presenting the fundamentals of reading and manipulating data in SQL, during the course you are taught how to identify and write SQL queries to acquire results. Use SQL commands to filter, sort, and summarize data. Manipulation of Strings, dates and numeric data using functions to integrate data from different sources into fields with the correct format for analysis.
+
+Learning goals: ``Data Science``, ``Data Analysis``, ``Sqlite``, ``SQL``.
 
 ### [Course 02]() - Python Data Structures.
 
