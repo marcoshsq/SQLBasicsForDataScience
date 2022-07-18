@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/marcoshsq/SQLBasicsForDataScience">
-    <img src="https://github.com/marcoshsq/SQLBasicsForDataScience/blob/main/sql.png" alt="sql" height="150" width="150">
+    <img src="https://cdn-icons-png.flaticon.com/512/603/603201.png" alt="sql" height="150" width="150">
   </a>
 </p>
   <h1 align="center">Learn SQL Basics for Data Science</h1>
