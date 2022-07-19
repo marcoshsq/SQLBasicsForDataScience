@@ -30,28 +30,25 @@ SELECT  prod_name,
         prod_price
 FROM Products;
 
-/*
 
-But to retrieve all columns is better to use a WildCard (*) instead of the columns names.
-
-*/
+-- But to retrieve all columns is better to use a WildCard (*) instead of the columns names.
 
 SELECT *
 FROM Products;
 
-/*To limit a query result*/
+--To limit a query result
 
-/*sqLite*/
+--sqLite
 SELECT prod_name
 FROM Products
 LIMIT 5;
 
-/*Oracle*/
+--Oracle
 SELECT prod_name
 FROM Products
 WHERE ROWNUM <=5;
 
-/*db2*/
+--db2
 SELECT prod_name
 FROM Products
 FETCH FIRST 5 ROWS ONLY;

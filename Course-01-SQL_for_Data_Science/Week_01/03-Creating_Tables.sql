@@ -26,7 +26,7 @@ CREATE TABLE Shoes
 
 */
 
-/*To insert data into the table*/
+-- To insert data into the table
 
 INSERT INTO Shoes
   (
