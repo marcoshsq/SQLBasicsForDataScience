@@ -59,7 +59,7 @@ From
 --
 
 /* Ex06 - Return the First Name, Last Name, Email, and Phone, from the Customers table. What is the telephone number for Jennifer Peterson?
-ans: */
+ans: +1 (604) 688-2255*/
 
 Select 
   FirstName, 
@@ -71,30 +71,44 @@ From
 
 --
 
-/* Ex07 - 
-ans: */
+/* Ex07 - Return the Track Id, Genre Id, Composer, Unit Price from the Tracks table. How much do these tracks cost?
+ans: 0.99 */
 
-
-
---
-
-/* Ex08 - 
-ans: */
-
-
-
---
-
-/* Ex09 - 
-ans: */
-
-
+Select 
+  TrackId, 
+  GenreId, 
+  Composer, 
+  UnitPrice 
+From 
+  Tracks;
 
 --
 
-/* Ex10 - 
+/* Ex08 - Select all the columns from the Playlist Track table and limit the results to 10 records. How might this information be used?
+ans: It's useful to restrict the number of responses in my table. */
+
+Select *
+From Playlist_track 
+Limit 10;
+
+--
+
+/* Ex09 - Select all the columns from the Media Types table and limit the results to 50 records. 
+What happened when you ran this query? Were you able to get all 50 records?
+ans: No.*/
+
+Select *
+From Media_types
+Limit 50;
+
+--
+
+/* Ex10 - Select all the columns from the Albums table and limit the results to 5 records. 
+How many columns are in the albums table? 
 ans: */
 
-
+Select *
+From Albums
+Limit 10;
 
 --
