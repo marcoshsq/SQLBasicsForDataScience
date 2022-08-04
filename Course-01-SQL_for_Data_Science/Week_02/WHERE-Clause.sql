@@ -6,5 +6,5 @@ Example: */
 
 SELECT ProdctName, ProductID, UnitPrice
 FROM Products
-WHERE ProductName = "Tofu"
+WHERE ProductName = "Tofu";
 
