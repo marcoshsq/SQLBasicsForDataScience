@@ -24,3 +24,9 @@ F + F = F
 SELECT ProdctID, UnitPrice, SuplierID, ProductName
 FROM Products
 WHERE ProductName = "Tofu" OR "Kobu";
+
+/*IN vs OR
+
+- IN offers a longer list of result;
+- IN is faster;
+- IN can contain another SELECT statement;*/
