@@ -9,3 +9,18 @@ Examples:*/
 SELECT ProdctID, UnitPrice, SuplierID
 FROM Products
 WHERE SuplierID IN (9, 10, 11);
+
+/* OR
+
+The or is a logical operator, basically:
+
+T + T = T
+T + F = T
+F + T = T
+F + F = F
+
+*/
+
+SELECT ProdctID, UnitPrice, SuplierID, ProductName
+FROM Products
+WHERE ProductName = "Tofu" OR "Kobu";
