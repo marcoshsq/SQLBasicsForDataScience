@@ -29,4 +29,15 @@ WHERE ProductName = "Tofu" OR "Kobu";
 
 - IN offers a longer list of result;
 - IN is faster;
-- IN can contain another SELECT statement;*/
+- IN can contain another SELECT statement;
+- With IN you don't have to think about the order in which you're placing your different conditions.
+
+*/
+
+-- OR with AND
+--The order of operations is important, so use parentheses.
+
+SELECT ProdctID, UnitPrice, SuplierID, ProductName
+FROM Products
+WHERE (ProductName = "Tofu" OR "Kobu")
+AND ProdctID = 10;
