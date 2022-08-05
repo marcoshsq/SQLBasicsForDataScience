@@ -41,3 +41,9 @@ SELECT ProdctID, UnitPrice, SuplierID, ProductName
 FROM Products
 WHERE (ProductName = "Tofu" OR "Kobu")
 AND ProdctID = 10;
+
+-- The NOT operator is good for when we want several results, except some specific ones.
+
+SELECT *
+FROM Employees
+WHERE NOT City = "London" AND NOT City = "Seatlle";
