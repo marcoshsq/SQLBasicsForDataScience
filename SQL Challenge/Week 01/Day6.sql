@@ -43,3 +43,40 @@ SELECT *
 FROM Customers
 WHERE CustomerName LIKE 'a%';
 
+-- 02: The following SQL statement selects all customers with a CustomerName ending with "a":
+
+SELECT * 
+FROM Customers
+WHERE CustomerName LIKE '%a';
+
+-- 03: The following SQL statement selects all customers with a CustomerName that have "or" in any position:
+
+SELECT * 
+FROM Customers
+WHERE CustomerName LIKE '%or%';
+
+-- 04: The following SQL statement selects all customers with a CustomerName that have "r" in the second position:
+
+SELECT * 
+FROM Customers
+WHERE CustomerName LIKE '_r%';
+
+-- 05: The following SQL statement selects all customers with a CustomerName that starts with "a" and are at least 3 characters in length:
+
+SELECT * 
+FROM Customers
+WHERE CustomerName LIKE 'a__%';
+
+-- 06: The following SQL statement selects all customers with a ContactName that starts with "a" and ends with "o":
+
+SELECT * 
+FROM Customers
+WHERE ContactName LIKE 'a%o';
+
+-- 07: The following SQL statement selects all customers with a CustomerName that does NOT start with "a":
+
+SELECT * 
+FROM Customers
+WHERE CustomerName NOT LIKE 'a%';
+
+--*****************************************************************************************************************************
