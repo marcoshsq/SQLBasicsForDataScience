@@ -100,3 +100,42 @@ WHERE ROWNUM <= number;
 SELECT *
 FROM (SELECT column_name(s) FROM table_name ORDER BY column_name(s))
 WHERE ROWNUM <= number;
+
+--**********************************************************************************************************************
+
+/* SQL TOP, LIMIT and FETCH FIRST Examples:*/
+
+-- SQL Server/MS Access
+
+SELECT TOP 3 * 
+FROM Customers;
+
+-- MySQL
+
+SELECT * 
+FROM Customers
+LIMIT 3;
+
+-- Oracle
+
+SELECT * 
+FROM Customers
+FETCH FIRST 3 ROWS ONLY;
+
+--**********************************************************************************************************************
+
+-- TOP PERCENT Example:
+
+-- SQL Server/MS Access
+
+SELECT TOP 50 PERCENT * 
+FROM Customers;
+
+-- Oracle
+
+SELECT * 
+FROM Customers
+FETCH FIRST 50 PERCENT ROWS ONLY;
+
+--**********************************************************************************************************************
+
