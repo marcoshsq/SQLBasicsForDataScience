@@ -29,7 +29,7 @@ FROM
 
 --
 
-/*EX02 - Retrieve all the columns from the Tracks table, but only return 20 rows.
+/*EX03 - Retrieve all the columns from the Tracks table, but only return 20 rows.
 
 What is the runtime in milliseconds for the 5th track, entitled "Princess of the Dawn"?
 
