@@ -15,3 +15,13 @@ ORDER BY characteristic
 - Separate the items with a comma
 
 */
+
+-- Sorting by column position:
+
+ORDER BY 2, 3
+
+-- Sort direction (Only applies to the column names it directly preceeds )
+
+DESC -- Descending order.
+
+ASC -- Ascending order.
