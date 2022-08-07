@@ -4,10 +4,8 @@ What is Robert King's mailing address? Note: You will have to scroll to the righ
 
 ans: 590 Columbia Boulevard West, Lethbridge, AB, CANADA T1K 5N8 */
 
-SELECT 
-    *
-FROM
-    Employees;
+SELECT *
+FROM Employees;
     
 --
 
@@ -35,11 +33,8 @@ What is the runtime in milliseconds for the 5th track, entitled "Princess of the
 
 ans: 375418 */
 
-SELECT 
-    *
-FROM
-    Tracks
-LIMIT 
-    20;
+SELECT *
+FROM Tracks
+LIMIT 20;
 
 --
