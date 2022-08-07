@@ -1,67 +1,18 @@
--- Source: https://www.w3schools.com/sql/sql_select.asp
+-- Source: https://www.w3schools.com/sql/exercise.asp?filename=exercise_select1
 
-/* The SQL SELECT Statement
+-- SQL SELECT
 
-The SELECT statement is used to select data from a database. The data returned is stored in a result table, called the result-set.
+-- 01: Insert the missing statement to get all the columns from the Customers table.
 
-SELECT Syntax */
+SELECT * 
+FROM Customers;
 
-SELECT 
-  column1, column2, ...
-FROM 
-  table_name;
+-- 02: Write a statement that will select the City column from the Customers table.
 
-/*Here, column1, column2, ... are the field names of the table you want to select data from. 
-If you want to select all the fields available in the table, use the following syntax:*/
+SELECT City
+FROM Customers;
 
-SELECT 
-  * 
-FROM
-  table_name;
+-- 03: Select all the different values from the Country column in the Customers table.
 
--- other examples:
-
-SELECT 
-  CustomerName, 
-  City 
-FROM
-  Customers;
-  
--- ******************************************************************************************
-
-/* The SQL SELECT DISTINCT Statement
-
-The SELECT DISTINCT statement is used to return only distinct (different) values.
-
-Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values.
-
-SELECT DISTINCT Syntax */
-
-SELECT DISTINCT 
-  column1, column2, ...
-FROM 
-  table_name;
-  
--- example:
-
-SELECT DISTINCT 
-  Country 
-FROM
-  Customers;
-
--- or
-
-SELECT 
-  COUNT(DISTINCT Country) 
-FROM 
-  Customers;
-  
-  
-SELECT 
-  Count(*) AS DistinctCountries
-FROM 
-  (SELECT 
-    DISTINCT Country 
-   FROM 
-    Customers
-  );
+SELECT DISTINCT Country
+FROM Customers;
