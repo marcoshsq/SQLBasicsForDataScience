@@ -26,7 +26,7 @@ Learning goals: ``Data Analysis``, ``Apache Spark``, ``Delta Lake``, ``SQL``, ``
 
 ## Projects, assignments and exercises:
 
-### [Course 01](https://github.com/marcoshsq/SQLBasicsForDataScience/tree/main/Course-01-SQL_for_Data_Science) - SQL for Data Science.
+### [Course 01](https://github.com/marcoshsq/SQLBasicsForDataScience/tree/main/Course%2001-%20SQL%20for%20Data%20Science) - SQL for Data Science.
 
     Week 01: Getting Started and Selecting & Retrieving Data with SQL;
     Week 02: Filtering, Sorting, and Calculating Data with SQL;
@@ -39,7 +39,7 @@ Learning goals: ``Data Science``, ``Data Analysis``, ``Sqlite``, ``SQL``.
 
 ## 
 
-### [Course 02](https://github.com/marcoshsq/SQLBasicsForDataScience/tree/main/Course-02-Data_Wrangling-Analysis-AB_Testing) - Data Wrangling, Analysis and AB Testing with SQL.
+### [Course 02](https://github.com/marcoshsq/SQLBasicsForDataScience/tree/main/Course%2002%20-%20Data%20Wrangling%20Analysis%20AB%20Testing) - Data Wrangling, Analysis and AB Testing with SQL.
 
     Week 01: Data of Unknown Quality;
     Week 02: Creating Clean Datasets;
@@ -52,7 +52,7 @@ Learning goals: ``A/B Testing``, ``Query String``, ``Data Analysis``, ``Predicti
 
 ## 
 
-### [Course 03](https://github.com/marcoshsq/SQLBasicsForDataScience/tree/main/Course-03-Distributed_Computing_With_Spark_SQL) - Distributed Computing with Spark SQL.
+### [Course 03](https://github.com/marcoshsq/SQLBasicsForDataScience/tree/main/Course%2003%20-%20Distributed%20Computing%20With%20Spark%20SQL) - Distributed Computing with Spark SQL.
 
     Week 01: Introduction to Spark;
     Week 02: Spark Core Concepts;
@@ -65,7 +65,7 @@ Learning goals: ``Apache Spark``, ``Delta Lake``, ``SQL``.
 
 ## 
 
-### [Course 04](https://github.com/marcoshsq/SQLBasicsForDataScience/tree/main/Course-04-SQL_for_Data_Science_Capstone_Project) - SQL for Data Science Capstone Project.
+### [Course 04](https://github.com/marcoshsq/SQLBasicsForDataScience/tree/main/Course%2004-%20Capstone%20Project) - SQL for Data Science Capstone Project.
 
     Project Proposal and Data Selection/Preparation;
     Descriptive Stats & Understanding Your Data;
