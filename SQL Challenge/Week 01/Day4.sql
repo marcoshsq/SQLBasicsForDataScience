@@ -30,3 +30,30 @@ SET ContactName='Juan'
 WHERE Country='Mexico';
 
 -- Careful when updating records. If you omit the WHERE clause, ALL records will be updated!
+
+--**********************************************************************************************************************
+
+/* The SQL DELETE Statement
+
+The DELETE statement is used to delete existing records in a table.
+
+Syntax*/
+
+DELETE FROM table_name WHERE condition;
+
+-- Example: The following SQL statement deletes the customer "Alfreds Futterkiste" from the "Customers" table:
+
+DELETE FROM Customers 
+WHERE CustomerName='Alfreds Futterkiste';
+
+/* Delete All Records
+
+It is possible to delete all rows in a table without deleting the table. This means that the table structure, attributes, and indexes will be intact:*/
+
+DELETE FROM table_name;
+
+-- The following SQL statement deletes all rows in the "Customers" table, without deleting the table:
+
+DELETE FROM Customers;
+
+--**********************************************************************************************************************
