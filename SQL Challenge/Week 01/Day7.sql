@@ -109,3 +109,49 @@ ORDER BY ProductName;
 SELECT * 
 FROM Orders
 WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
+
+--****************************************************************************************************************
+
+/* SQL Aliases
+
+SQL aliases are used to give a table, or a column in a table, a temporary name.
+
+Aliases are often used to make column names more readable.
+
+An alias only exists for the duration of that query.
+
+An alias is created with the AS keyword.*/
+
+--Alias Column Syntax
+SELECT column_name AS alias_name
+FROM table_name;
+
+-- Alias Table Syntax
+SELECT column_name(s)
+FROM table_name AS alias_name;
+
+-- Alias for Columns Examples
+-- The following SQL statement creates two aliases, one for the CustomerID column and one for the CustomerName column:
+
+SELECT CustomerID AS ID, CustomerName AS Customer
+FROM Customers;
+
+-- The following SQL statement creates two aliases, one for the CustomerName column and one for the ContactName column. Note: It requires double quotation marks or square brackets if the alias name contains spaces:
+
+SELECT CustomerName AS Customer, ContactName AS [Contact Person]
+FROM Customers;
+
+-- The following SQL statement creates an alias named "Address" that combine four columns (Address, PostalCode, City and Country):
+
+SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country AS Address
+FROM Customers;
+
+-- Note: To get the SQL statement above to work in MySQL use the following:
+
+SELECT CustomerName, CONCAT(Address,', ',PostalCode,', ',City,', ',Country) AS Address
+FROM Customers;
+Note: To get the SQL statement above to work in Oracle use the following:
+
+SELECT CustomerName, (Address || ', ' || PostalCode || ' ' || City || ', ' || Country) AS Address
+FROM Customers;
+
