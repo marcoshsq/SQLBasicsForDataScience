@@ -1,6 +1,6 @@
 ## Exercises
 
-- [Day 01:]()
+- [Day 01:](https://github.com/marcoshsq/SQLBasicsForDataScience/blob/main/SQL%20Challenge/Week%2004/Day1.sql) Select and Where Exercises;
 - [Day 02:]()
 - [Day 03:]()
 - [Day 04:]()
