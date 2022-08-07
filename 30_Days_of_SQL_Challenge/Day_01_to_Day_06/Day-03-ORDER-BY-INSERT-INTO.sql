@@ -77,7 +77,24 @@ be as follows:*/
 INSERT INTO table_name
 VALUES (value1, value2, value3, ...);
 
+-- Example 01: 
+
+INSERT INTO Customers 
+    (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES 
+    ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
 
 
+/*Insert Data Only in Specified Columns
 
+It is also possible to only insert data in specific columns.
 
+The following SQL statement will insert a new record, but only insert data in the 
+"CustomerName", "City", and "Country" columns (CustomerID will be updated automatically):
+
+*/
+
+INSERT INTO Customers 
+    (CustomerName, City, Country)
+VALUES 
+    ('Cardinal', 'Stavanger', 'Norway');
