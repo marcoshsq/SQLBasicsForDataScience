@@ -44,8 +44,18 @@ SELECT *
 FROM Customers
 ORDER BY Country, CustomerName;
 
+/* ORDER BY Several Columns Example 2
 
+The following SQL statement selects all customers from the "Customers" table, 
+sorted ascending by the "Country" and descending by the "CustomerName" column:
 
+*/
+
+SELECT * 
+FROM Customers
+ORDER BY Country ASC, CustomerName DESC;
+
+--**********************************************************************************************************************
 
 
 
