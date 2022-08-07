@@ -24,3 +24,5 @@ FROM Products;
 
 SELECT SUM(Quantity)
 FROM OrderDetails;
+
+-- Null values are ignored!
