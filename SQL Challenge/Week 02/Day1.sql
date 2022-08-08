@@ -1,67 +1,26 @@
--- Source: https://www.w3schools.com/sql/sql_select.asp
+-- Source: https://www.w3schools.com/sql/sql_join.asp
 
-/* The SQL SELECT Statement
+/* SQL Joins
 
-The SELECT statement is used to select data from a database. The data returned is stored in a result table, called the result-set.
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
 
-SELECT Syntax */
+Example:
 
-SELECT 
-  column1, column2, ...
-FROM 
-  table_name;
+Let's say we have a table called "Orders" that has columns "OrderID", "CustomerID", and "OrderDate".
+And we also have the Customers table with the columns "CustomerID",	"CustomerName",	"ContactName" and	"Country"
 
-/*Here, column1, column2, ... are the field names of the table you want to select data from. 
-If you want to select all the fields available in the table, use the following syntax:*/
+The "CustomerID" column in the "Orders" table refers to the "CustomerID" in the "Customers" table. 
+The relationship between the two tables above is the "CustomerID" column.
 
-SELECT 
-  * 
-FROM
-  table_name;
+Then, we can create the following SQL statement (that contains an INNER JOIN), that selects records that have matching values in both tables:*/
 
--- other examples:
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 
-SELECT 
-  CustomerName, 
-  City 
-FROM
-  Customers;
-  
--- ******************************************************************************************
+/*The different Types of SQL JOINs:
 
-/* The SQL SELECT DISTINCT Statement
-
-The SELECT DISTINCT statement is used to return only distinct (different) values.
-
-Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values.
-
-SELECT DISTINCT Syntax */
-
-SELECT DISTINCT 
-  column1, column2, ...
-FROM 
-  table_name;
-  
--- example:
-
-SELECT DISTINCT 
-  Country 
-FROM
-  Customers;
-
--- or
-
-SELECT 
-  COUNT(DISTINCT Country) 
-FROM 
-  Customers;
-  
-  
-SELECT 
-  Count(*) AS DistinctCountries
-FROM 
-  (SELECT 
-    DISTINCT Country 
-   FROM 
-    Customers
-  );
+- (INNER) JOIN: Returns records that have matching values in both tables
+- LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+- RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+- FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table*/
