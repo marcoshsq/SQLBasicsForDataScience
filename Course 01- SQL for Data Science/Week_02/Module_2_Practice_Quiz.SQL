@@ -19,3 +19,18 @@ Extended_Step;
 Pay_Type.
 
 */
+
+-- 01: Find the distinct values for the extended step.
+
+SELECT DISTINCT Extended_step
+FROM salary_range_by_job_classification 
+
+-- 02:
+-- 03:
+-- 04:
+-- 05:
+-- 06:
+-- 07:
+-- 08:
+-- 09:
+-- 10:
