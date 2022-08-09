@@ -37,3 +37,19 @@ WHERE Customer_ID IN (
 				WHERE Prodct_name = "ToothBrush"
 				)
 		);
+
+-- Subqueries for Calculation:
+
+SELECT COUNT(*) AS orders
+FROM Orders
+WHERE Customer_ID = "143569"
+
+SELECT Customer_name
+	,Customer_state
+	,(
+		SELECT COUNT(*) AS orders
+		FROM Orders
+		WHERE Orders.customer_ID = Customer.customer_ID
+		) AS orders
+FROM Customers
+ORDER BY Customer_name
