@@ -1,0 +1,3 @@
+/*Subqueries are queries embebed into another querie.
+They merge Data from multiple sources togheter to 
+add a new filtering criteria.*/
