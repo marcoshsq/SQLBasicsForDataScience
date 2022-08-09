@@ -13,3 +13,14 @@ WHERE CustomerID IN
     FROM Orders
     WHERE Freight > 100
   ); -- SQL always perform the innermost query first 
+
+--****************************************************************************************
+
+-- Best Practices:
+
+/* 
+
+- There is no limit to the number of subqueries, but system performance is affected.
+- Subquery SELECT can only retrieve a single column. 
+
+*/
