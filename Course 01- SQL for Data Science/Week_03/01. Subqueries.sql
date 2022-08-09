@@ -19,8 +19,18 @@ WHERE CustomerID IN
 -- Best Practices:
 
 /* 
-
 - There is no limit to the number of subqueries, but system performance is affected.
 - Subquery SELECT can only retrieve a single column. 
-
 */
+
+SELECT    Customer_name, Customer_contact, Customer_ID
+FROM Customers
+WHERE Customer_ID IN
+  SELECT Customer_ID
+  FROM Orders
+  WHERE Order_number IN 
+  (
+    SELECT Order_number
+    FROM Order_items
+    WHERE Prodct_name = "ToothBrush"
+    );
