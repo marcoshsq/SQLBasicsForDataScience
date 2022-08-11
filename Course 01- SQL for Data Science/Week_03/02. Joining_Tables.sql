@@ -30,3 +30,11 @@ Greater scalability:
 
 Breaking data into tables allows us the opportunity to
 scale the information.    */
+
+/* Joins:
+
+- Associate correct records from each table on the fly;
+- Allows data retrieval from multiples tables on one query;
+- Aren't physical, they persist for the duration of the query execution.
+
+*/
