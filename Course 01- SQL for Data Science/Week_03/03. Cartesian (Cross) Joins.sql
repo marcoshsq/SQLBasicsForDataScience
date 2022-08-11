@@ -8,3 +8,10 @@ So, as you might guess, this is computationally taxing
 because if you have a table with just ten records in it and the second table
 with ten records, just performing a Cross Join is already going to increase it
 to 100.    */
+
+-- Syntax:
+
+SELECT product_name
+      ,unit_price
+      ,company_name
+FROM suppliers CROSS JOIN products;
