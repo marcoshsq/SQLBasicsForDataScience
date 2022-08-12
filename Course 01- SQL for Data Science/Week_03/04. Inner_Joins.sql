@@ -29,3 +29,9 @@ FROM (
 		Orders O INEER JOIN Customer c ON o.CustomerID = c.CustomerID
 		) INNER JOIN Employees e ON o.EmployeeID = e.EmployeeID
 	);
+
+/*Best practices:
+
+Make sure to pre-qualify the names;
+Don't make unecessary joins; 
+How are the records connected?*/
