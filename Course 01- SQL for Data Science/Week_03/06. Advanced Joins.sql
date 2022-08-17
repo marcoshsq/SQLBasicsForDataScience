@@ -27,3 +27,15 @@ SELECT C.CustomerName
 FROM Customers C
 LEFT JOIN Orders O ON C.CustomerID = O.CustomerID
 ORDER BY C.CustomerName;
+
+
+-- Right Join Example:
+
+-- This example will select all employees, and any order they might have placed.
+
+SELECT Orders.OrderID
+	,Employees.LastName
+	,Employees.FirstName
+FROM Orders
+RIGHT JOIN Employees ON Orders.EmployeeID = Employees.EmployeesID
+ORDER BY Orders.OrderID
