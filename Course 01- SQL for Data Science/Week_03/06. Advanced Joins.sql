@@ -38,7 +38,7 @@ SELECT Orders.OrderID
 	,Employees.FirstName
 FROM Orders
 RIGHT JOIN Employees ON Orders.EmployeeID = Employees.EmployeesID
-ORDER BY Orders.OrderID
+ORDER BY Orders.OrderID;
 
 -- Full Outer Join Example:
 
@@ -48,7 +48,7 @@ SELECT Customers.CustomersName
 	,Orders.OrderID
 FROM Customers
 FULL OUTER JOIN Orders ON Customers.CustomersID = Orders.CustomersID
-ORDER BY Customers.CustomersName
+ORDER BY Customers.CustomersName;
 
 /* Unions:
 
@@ -58,5 +58,30 @@ Columns must have similar data types;
 The columns in each SELECT must be in the same order.
 
 */
+
+-- Syntax:
+
+SELECT Column_name
+FROM Table_01
+
+UNION
+
+SELECT Column_name
+FROM Table_02;
+
+-- Example:
+
+SELECT City
+	,Country
+FROM Customers
+WHERE Country = "Germany"
+
+UNION
+
+SELECT City
+	,Country
+FROM Suppliers
+WHERE Country = "Germany"
+ORDER BY City;
 
 -- (づ｡◕‿‿◕｡)づ
