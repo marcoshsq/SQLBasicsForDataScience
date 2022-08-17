@@ -49,3 +49,14 @@ SELECT Customers.CustomersName
 FROM Customers
 FULL OUTER JOIN Orders ON Customers.CustomersID = Orders.CustomersID
 ORDER BY Customers.CustomersName
+
+/* Unions:
+
+The Union operator is used to combine the result of two or more SELECT statements;
+Each SELECT must have the same number of columns;
+Columns must have similar data types;
+The columns in each SELECT must be in the same order.
+
+*/
+
+-- (づ｡◕‿‿◕｡)づ
