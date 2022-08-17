@@ -39,3 +39,13 @@ SELECT Orders.OrderID
 FROM Orders
 RIGHT JOIN Employees ON Orders.EmployeeID = Employees.EmployeesID
 ORDER BY Orders.OrderID
+
+-- Full Outer Join Example:
+
+-- This example will select all customers, and all orders.
+
+SELECT Customers.CustomersName
+	,Orders.OrderID
+FROM Customers
+FULL OUTER JOIN Orders ON Customers.CustomersID = Orders.CustomersID
+ORDER BY Customers.CustomersName
