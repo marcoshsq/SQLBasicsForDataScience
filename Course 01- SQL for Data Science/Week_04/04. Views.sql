@@ -29,3 +29,16 @@ INNER JOIN Employees e ON et.EmployeeID = e.EmployeeID;
 SELECT *
 FROM my_view
 DROP VIEW my_view;
+
+/* The beauty of the view is that it can be used like a table. But it's unlike a table in that you 
+don't have to have ETL or run ETL on any of the data. This helps a lot by encapsulating complex 
+queries or complex calculations that you're trying to write. It can really help simplify it. It can 
+also be used in pretty much any database, except for stored procedures.
+*/
+
+SELECT COUNT(oryDescription)
+	,LastName
+	,FirstName
+FROM my_view
+ORDER BY FirstName
+	,LastName;
