@@ -11,7 +11,7 @@ CREATE [TEMP] VIEW [IF NOT EXISTS] view_name(column_name_list) AS slect_statemen
 
 -- Exampla:
 
-CREATE VIEW
+CREATE VIEW my_view
 AS
 SELECT r.RegionDescription
 	,t.TerritoryDescription
@@ -22,4 +22,10 @@ SELECT r.RegionDescription
 FROM Region r
 INNER JOIN Territories t ON r.RegionID = t.RegionID
 INNER JOIN EmployeesTerritories et ON t.TerritoryID = et.TerritoryID
-INNER JOIN Employees e ON et.EmployeeID = e.EmployeeID
+INNER JOIN Employees e ON et.EmployeeID = e.EmployeeID;
+
+-- To actually view the data, you must use a select:
+
+SELECT *
+FROM my_view
+DROP VIEW my_view;
