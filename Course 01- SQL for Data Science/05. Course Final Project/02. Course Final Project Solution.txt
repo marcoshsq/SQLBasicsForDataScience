@@ -62,8 +62,7 @@ FROM table_name (Table names are found in the schema.)
 3. Are there any columns with null values in the Users table? Indicate "yes," or "no."
 
 Answer: No
-	
-	
+
 SQL code used to arrive at answer:
  
 SELECT *
@@ -191,15 +190,15 @@ Copy and Paste the Resulting Table Below (2 columns â€“ star rating and cou
 ii. Beachwood
 
 SQL code used to arrive at answer:
-select 
-stars as StarRating
-,count(stars) 
-from business as b
-where city='Beachwood'
-group by stars
 
+SELECT stars AS StarRating
+	,count(stars)
+FROM business AS b
+WHERE city = 'Beachwood'
+GROUP BY stars;
 
 Copy and Paste the Resulting Table Below (2 columns â€“ star rating and count):
+
 +-------+-----------+
 | stars | frequency |
 +-------+-----------+
@@ -216,15 +215,15 @@ Copy and Paste the Resulting Table Below (2 columns â€“ star rating and cou
 
 7. Find the top 3 users based on their total number of reviews:
 		
-	SQL code used to arrive at answer:
-	select
-        name
-        ,review_count
-        from user
-        order by review_count desc
-        limit 3
+SQL code used to arrive at answer:
+
+SELECT name
+	,review_count
+FROM user
+ORDER BY review_count DESC limit 3;
 		
 Copy and Paste the Result Below:
+
 +------------------------+--------+--------------+
 | id                     | name   | review_count |
 +------------------------+--------+--------------+
@@ -237,16 +236,18 @@ Copy and Paste the Result Below:
 
 8. Does posing more reviews correlate with more fans? No
 
-	Please explain your findings and interpretation of the results:
-        select 
-        name
-        ,review_count
-        ,fans
-        from user
-        order by fans desc
-        limit 10
+Yes, but also the amount of time that they have been yelping. The longer they have been yelping and the more reviews they give, the higher the fan count.
 
-Results:
+Please explain your findings and interpretation of the results:
+
+SELECT id
+	,name
+	,review_count
+	,fans
+	,yelping_since
+FROM user
+ORDER BY fans DESC;
+
 +------------------------+-----------+--------------+------+---------------------+
 | id                     | name      | review_count | fans | yelping_since       |
 +------------------------+-----------+--------------+------+---------------------+
@@ -281,13 +282,22 @@ Results:
 	
 9. Are there more reviews with the word "love" or with the word "hate" in them?
 
-	Answer: more reviews with the worf "love"
+Answer: love has 1780, while hate only has 232     :) 'love always wins ヽ(o＾▽＾o)ノ'
 
+
+SQL code used to arrive at answer:
 	
-	SQL code used to arrive at answer:
-        select 
-       (select count(text) from review where text like '%love') as love_text
-       ,(select count(text) from review where text like '%hate%') as hate_text
+SELECT (
+		SELECT count(TEXT)
+		FROM review
+		WHERE TEXT LIKE '%love'
+		) AS love_text
+	,(
+		SELECT count(TEXT)
+		FROM review
+		WHERE TEXT LIKE '%hate%'
+		) AS hate_text;
+       
 +-----------+------+
 | frequency | word |
 +-----------+------+
@@ -299,90 +309,84 @@ Results:
 	
 10. Find the top 10 users with the most fans:
 
-	SQL code used to arrive at answer:
-        select
-        names
-        ,fans
-        from user
-        orber by fans desc
-        limit 10
-        
-******************************************************************************************************************************************************************     
+SQL code used to arrive at answer:
+
+SELECT NAMES
+	,fans
+FROM user orber BY fans DESC limit 10;
 	
 Copy and Paste the Result Below:
-                +------------------------+-----------+------+
-		| id                     | name      | fans |
-		+------------------------+-----------+------+
-		| -9I98YbNQnLdAmcYfb324Q | Amy       |  503 |
-		| -8EnCioUmDygAbsYZmTeRQ | Mimi      |  497 |
-		| --2vR0DIsmQ6WfcSzKWigw | Harald    |  311 |
-		| -G7Zkl1wIWBBmD0KRy_sCw | Gerald    |  253 |
-		| -0IiMAZI2SsQ7VmyzJjokQ | Christine |  173 |
-		| -g3XIcCb2b-BD0QBCcq2Sw | Lisa      |  159 |
-		| -9bbDysuiWeo2VShFJJtcw | Cat       |  133 |
-		| -FZBTkAZEXoP7CYvRV2ZwQ | William   |  126 |
-		| -9da1xk7zgnnfO1uTVYGkA | Fran      |  124 |
-		| -lh59ko3dxChBSZ9U7LfUw | Lissa     |  120 |
-		+------------------------+-----------+------+
 
-              
-******************************************************************************************************************************************************************	
++------------------------+-----------+------+
+| id                     | name      | fans |
++------------------------+-----------+------+
+| -9I98YbNQnLdAmcYfb324Q | Amy       |  503 |
+| -8EnCioUmDygAbsYZmTeRQ | Mimi      |  497 |
+| --2vR0DIsmQ6WfcSzKWigw | Harald    |  311 |
+| -G7Zkl1wIWBBmD0KRy_sCw | Gerald    |  253 |
+| -0IiMAZI2SsQ7VmyzJjokQ | Christine |  173 |
+| -g3XIcCb2b-BD0QBCcq2Sw | Lisa      |  159 |
+| -9bbDysuiWeo2VShFJJtcw | Cat       |  133 |
+| -FZBTkAZEXoP7CYvRV2ZwQ | William   |  126 |
+| -9da1xk7zgnnfO1uTVYGkA | Fran      |  124 |
+| -lh59ko3dxChBSZ9U7LfUw | Lissa     |  120 |
++------------------------+-----------+------+
 
-11. Is there a strong correlation between having a high number of fans and being listed 
-	as "useful" or "funny?" 
-	
-		Yes, see interpretation.
-	
-	SQL code used to arrive at answer:
-	
-		SELECT name,
-			   fans,
-			   useful,
-			   funny,
-			   review_count,
-			   yelping_since
-		FROM user
-		ORDER BY fans DESC	
-	
-	Copy and Paste the Result Below:
+******************************************************************************************************************************************************************
 
-		+-----------+------+--------+--------+--------------+---------------------+
-		| name      | fans | useful |  funny | review_count | yelping_since       |
-		+-----------+------+--------+--------+--------------+---------------------+
-		| Amy       |  503 |   3226 |   2554 |          609 | 2007-07-19 00:00:00 |
-		| Mimi      |  497 |    257 |    138 |          968 | 2011-03-30 00:00:00 |
-		| Harald    |  311 | 122921 | 122419 |         1153 | 2012-11-27 00:00:00 |
-		| Gerald    |  253 |  17524 |   2324 |         2000 | 2012-12-16 00:00:00 |
-		| Christine |  173 |   4834 |   6646 |          930 | 2009-07-08 00:00:00 |
-		| Lisa      |  159 |     48 |     13 |          813 | 2009-10-05 00:00:00 |
-		| Cat       |  133 |   1062 |    672 |          377 | 2009-02-05 00:00:00 |
-		| William   |  126 |   9363 |   9361 |         1215 | 2015-02-19 00:00:00 |
-		| Fran      |  124 |   9851 |   7606 |          862 | 2012-04-05 00:00:00 |
-		| Lissa     |  120 |    455 |    150 |          834 | 2007-08-14 00:00:00 |
-		| Mark      |  115 |   4008 |    570 |          861 | 2009-05-31 00:00:00 |
-		| Tiffany   |  111 |   1366 |    984 |          408 | 2008-10-28 00:00:00 |
-		| bernice   |  105 |    120 |    112 |          255 | 2007-08-29 00:00:00 |
-		| Roanna    |  104 |   2995 |   1188 |         1039 | 2006-03-28 00:00:00 |
-		| Angela    |  101 |    158 |    164 |          694 | 2010-10-01 00:00:00 |
-		| .Hon      |  101 |   7850 |   5851 |         1246 | 2006-07-19 00:00:00 |
-		| Ben       |   96 |   1180 |   1155 |          307 | 2007-03-10 00:00:00 |
-		| Linda     |   89 |   3177 |   2736 |          584 | 2005-08-07 00:00:00 |
-		| Christina |   85 |    158 |     34 |          842 | 2012-10-08 00:00:00 |
-		| Jessica   |   84 |   2161 |   2091 |          220 | 2009-01-12 00:00:00 |
-		| Greg      |   81 |    820 |    753 |          408 | 2008-02-16 00:00:00 |
-		| Nieves    |   80 |   1091 |    774 |          178 | 2013-07-08 00:00:00 |
-		| Sui       |   78 |      9 |     18 |          754 | 2009-09-07 00:00:00 |
-		| Yuri      |   76 |   1166 |    220 |         1339 | 2008-01-03 00:00:00 |
-		| Nicole    |   73 |     13 |     10 |          161 | 2009-04-30 00:00:00 |
-		+-----------+------+--------+--------+--------------+---------------------+
+11. Is there a strong correlation between having a high number of fans and being listed as "useful" or "funny?" 
+	
+Answer: Yes, see interpretation.
+	
+SQL code used to arrive at answer:
+	
+SELECT name
+	,fans
+	,useful
+	,funny
+	,review_count
+	,yelping_since
+FROM user
+ORDER BY fans DESC;
+	
+Copy and Paste the Result Below:
+
++-----------+------+--------+--------+--------------+---------------------+
+| name      | fans | useful |  funny | review_count | yelping_since       |
++-----------+------+--------+--------+--------------+---------------------+
+| Amy       |  503 |   3226 |   2554 |          609 | 2007-07-19 00:00:00 |
+| Mimi      |  497 |    257 |    138 |          968 | 2011-03-30 00:00:00 |
+| Harald    |  311 | 122921 | 122419 |         1153 | 2012-11-27 00:00:00 |
+| Gerald    |  253 |  17524 |   2324 |         2000 | 2012-12-16 00:00:00 |
+| Christine |  173 |   4834 |   6646 |          930 | 2009-07-08 00:00:00 |
+| Lisa      |  159 |     48 |     13 |          813 | 2009-10-05 00:00:00 |
+| Cat       |  133 |   1062 |    672 |          377 | 2009-02-05 00:00:00 |
+| William   |  126 |   9363 |   9361 |         1215 | 2015-02-19 00:00:00 |
+| Fran      |  124 |   9851 |   7606 |          862 | 2012-04-05 00:00:00 |
+| Lissa     |  120 |    455 |    150 |          834 | 2007-08-14 00:00:00 |
+| Mark      |  115 |   4008 |    570 |          861 | 2009-05-31 00:00:00 |
+| Tiffany   |  111 |   1366 |    984 |          408 | 2008-10-28 00:00:00 |
+| bernice   |  105 |    120 |    112 |          255 | 2007-08-29 00:00:00 |
+| Roanna    |  104 |   2995 |   1188 |         1039 | 2006-03-28 00:00:00 |
+| Angela    |  101 |    158 |    164 |          694 | 2010-10-01 00:00:00 |
+| .Hon      |  101 |   7850 |   5851 |         1246 | 2006-07-19 00:00:00 |
+| Ben       |   96 |   1180 |   1155 |          307 | 2007-03-10 00:00:00 |
+| Linda     |   89 |   3177 |   2736 |          584 | 2005-08-07 00:00:00 |
+| Christina |   85 |    158 |     34 |          842 | 2012-10-08 00:00:00 |
+| Jessica   |   84 |   2161 |   2091 |          220 | 2009-01-12 00:00:00 |
+| Greg      |   81 |    820 |    753 |          408 | 2008-02-16 00:00:00 |
+| Nieves    |   80 |   1091 |    774 |          178 | 2013-07-08 00:00:00 |
+| Sui       |   78 |      9 |     18 |          754 | 2009-09-07 00:00:00 |
+| Yuri      |   76 |   1166 |    220 |         1339 | 2008-01-03 00:00:00 |
+| Nicole    |   73 |     13 |     10 |          161 | 2009-04-30 00:00:00 |
++-----------+------+--------+--------+--------------+---------------------+
 	
 	
-	Please explain your findings and interpretation of the results:
+Please explain your findings and interpretation of the results:
 		
-		Yes, but there does seem to be one major outlier, number three Harald. The
-		other users seem to have a correlation with more `useful` and `funny`
-		results in more fans, but also in conjunction with review_count and time
-		they have been yelping.
+Yes, but there seems to be a big outlier, number three Harald. 
+
+Zero other users seem to have a more `useful` and `funny` correlation results in more fans, but also in conjunction with review_count and time they have been screaming.
         
 ******************************************************************************************************************************************************************
 
@@ -399,26 +403,34 @@ ii. Do the two groups you chose to analyze have a different number of reviews?
          
 iii. Are you able to infer anything from the location data provided between these two groups? Explain.
 
-No, I wasn't able to infer anything since two groups had different zipcodes
+No, I wasn't able to infer anything since two groups had different zipcodes.
 
 SQL code used for analysis:
 
-		SELECT B.name ,
-              	 C.category,
-		       B.city, 
-		       B.postal_code as zipcode
-		       hours , 
-		       CASE
-			   WHEN stars BETWEEN 2 AND 3 THEN '2-3 stars'
-			   WHEN stars BETWEEN 4 AND 5 THEN '4-5 stars'
-		      END AS rating,
-		      B.review_count as reviews
-       	From business B
-		Inner join hours H  on B.id = H.business_id
-		Inner join category C on C.business_id = B.id
-		Where city = 'Phoenix' and category = 'Restaurants' and rating in ('2-3stars','4-5 stars')
-		Group By name
-		Order By stars desc
+SELECT B.name
+	,C.category
+	,B.city
+	,B.postal_code AS zipcode hours
+	,CASE 
+		WHEN stars BETWEEN 2
+				AND 3
+			THEN '2-3 stars'
+		WHEN stars BETWEEN 4
+				AND 5
+			THEN '4-5 stars'
+		END AS rating
+	,B.review_count AS reviews
+FROM business B
+INNER JOIN hours H ON B.id = H.business_id
+INNER JOIN category C ON C.business_id = B.id
+WHERE city = 'Phoenix'
+	AND category = 'Restaurants'
+	AND rating IN (
+		'2-3stars'
+		,'4-5 stars'
+		)
+GROUP BY name
+ORDER BY stars DESC;
 		
 2. Group business based on the ones that are open and the ones that are closed. What differences can you find between the ones that are still open and the ones that are closed? List at least two differences and the SQL code you used to arrive at your answer.
 		
@@ -435,12 +447,13 @@ the average review count is higher for companies that are open.
          
 SQL code used for analysis:
 
-SELECT count(DISTINCT id)
-	,count(DISTINCT city)
-	,avg(stars)
-	,avg(review_count)
+SELECT COUNT(DISTINCT id)
+	,COUNT(DISTINCT city)
+	,AVG(stars)
+	,AVG(review_count)
 	,is_open
-FROM business Broup BY is_open
+FROM business
+GROUP BY is_open;
 
 ******************************************************************************************************************************************************************
 
@@ -450,8 +463,8 @@ Ideas for analysis include: Parsing out keywords and business attributes for sen
 	
 i. Indicate the type of analysis you chose to do:
 
-I chose to analyze whether companies like restaurants with attributes such as 'goodforkids', 'alcohol' and 'free wifi'
-either way relate to the number of stars or the comment counts they receive. I particularly chose the state 'Arizona' as this state has more
+I chose to analyze whether companies like restaurants with attributes such as 'goodforkids', 'alcohol', and 'free Wi-Fi'
+either way relates to the number of stars or the comment counts they receive. I particularly chose the state 'Arizona' as this state has more
 number of restaurants, has review counts ranging from lowest to highest, and ratings from 2 to 4.5 stars for my review.
          
 ******************************************************************************************************************************************************************
@@ -462,9 +475,9 @@ I used 3 tables as business, category, and attribute for my analysis.
 I chose the name of the company, its category, the state in which they run, the attributes they have, their ratings, and their count of
 assessments. I took variables like:
 
-1)name, state, stars, review_count from table business;
-2) table category;
-3) name, the value from the attribute table.
+1) Name, state, stars, review_count from table business;
+2) Table category;
+3) Name, the value from the attribute table.
 
 To connect all 3 tables. I used primary keys like business id, category business_id and
 business_id from the attribute table.
