@@ -61,9 +61,9 @@ events. Determine what is wrong and correct the error.
 
 Code:*/
 
-SELECT COUNT(event_id) AS events
+SELECT COUNT(DISTINCT event_id) AS events
 FROM dsv1069.events
-WHERE event_name = ‘view_item’
+WHERE event_name = "view_item"
 
 --************************************************************************************************************
 
@@ -74,6 +74,9 @@ below runs, but it isn’t right. Determine what is wrong and correct the error 
 
 Code:*/
 
+SELECT COUNT(DISTINCT orders.item_id) AS item_count
+FROM dsv1069.orders
+
 --************************************************************************************************************
 
 /* Exercise 6:
@@ -81,6 +84,8 @@ Code:*/
 --Goal: For each user figure out IF a user has ordered something, and when their first purchase was.
 
 Code:*/
+
+
 
 --************************************************************************************************************
 
