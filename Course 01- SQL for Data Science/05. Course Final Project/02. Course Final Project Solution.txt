@@ -315,7 +315,7 @@ Copy and Paste the Result Below:
 	
 		
 
-Part 2: Inferences and Analysis
+Part 2: Inferences and Analysis.
 
 1. Pick one city and category of your choice and group the businesses in that city or category by their overall star rating. Compare the businesses with 2-3 stars to the businesses with 4-5 stars and answer the following questions. Include your code.
 	
@@ -352,45 +352,57 @@ SQL code used for analysis:
 2. Group business based on the ones that are open and the ones that are closed. What differences can you find between the ones that are still open and the ones that are closed? List at least two differences and the SQL code you used to arrive at your answer.
 		
 i. Difference 1:
-         The average review count was 9 points more for business that are open  than the business that are closed
+
+The average review count was 9 points more for businesses that is open than the business that is closed.
+	 
+******************************************************************************************************************************************************************
          
 ii. Difference 2:
-      The number of distinct business_id for the one that are open is 5 times more than the business that are closed and hence the 
-	    average review count is higher for the business that are open   
-         
+
+The number of distinguished business_id for the one that is open is 5 times greater than the business that is closed, and therefore the
+the average review count is higher for companies that are open.
          
 SQL code used for analysis:
 
-	SELECT 
-		count(distinct id), 
-		count(distinct city),
-		avg(stars), 
-            avg(review_count),
-		is_open
-	From business
-	Broup By is_open
-	
+SELECT count(DISTINCT id)
+	,count(DISTINCT city)
+	,avg(stars)
+	,avg(review_count)
+	,is_open
+FROM business Broup BY is_open
+
+******************************************************************************************************************************************************************
+
 3. For this last part of your analysis, you are going to choose the type of analysis you want to conduct on the Yelp dataset and are going to prepare the data for analysis.
 
 Ideas for analysis include: Parsing out keywords and business attributes for sentiment analysis, clustering businesses to find commonalities or anomalies between them, predicting the overall star rating for a business, predicting the number of fans a user will have, and so on. These are just a few examples to get you started, so feel free to be creative and come up with your own problem you want to solve. Provide answers, in-line, to all of the following:
 	
 i. Indicate the type of analysis you chose to do:
-           	I chose to analyse whether the businesses like restaurants having the arrtibutes like 'goodforkids' ,'alcohol' and 'free wifi'  
-	   anyway relate to the number of stars or the review counts that they get. I chose particulrly  the state 'Arizona'  as this state  has more 
-	   number of restaurants, has the review counts ranging from  the least to the highest and the ratings from 2 to 4.5 stars ffor my analysis.   
+
+I chose to analyze whether companies like restaurants with attributes such as 'goodforkids', 'alcohol' and 'free wifi'
+either way relate to the number of stars or the comment counts they receive. I particularly chose the state 'Arizona' as this state has more
+number of restaurants, has review counts ranging from lowest to highest, and ratings from 2 to 4.5 stars for my review.
          
+******************************************************************************************************************************************************************
+	 
 ii. Write 1-2 brief paragraphs on the type of data you will need for your analysis and why you chose that data:
                            
- I used 3 tables like business, category and attribute for my analysis. 
-	       I chose the business name ,their catagory , the state in which they are run , the attributes they have, their ratings and their count of
-	       reviews. I took varibles like  1)name, state, stars , review_count from  the table business, 
-				     	      2)category from the table category and
-				     	      3)name ,value from the attribute table.
-	       To connect all the 3 tables. I used the primary keys like id from business, business_id from category and 
-				 business_id from attribute table.
+I used 3 tables as business, category, and attribute for my analysis.
+I chose the name of the company, its category, the state in which they run, the attributes they have, their ratings, and their count of
+assessments. I took variables like:
+
+1)name, state, stars, review_count from table business;
+2) table category;
+3) name, the value from the attribute table.
+
+To connect all 3 tables. I used primary keys like business id, category business_id and
+business_id from the attribute table.
                  
-	       I wanted to know having a free wifi or restaurents good for kids or having full-bar or having any combination of 2 or all the attributes 
-	       contributes to good rating or having more reviews in particular.    
+I wish I knew how to have free Wi-Fi or kid-friendly restaurants or have a full bar or have any combination of 2 or all of the attributes
+contributions to a good rating or have more comments in private.  
+	       
+******************************************************************************************************************************************************************
+
 iii. Output of your finished dataset:
          
         	+----------------------------------------+-------------+---------------+-------+-------+--------------+
@@ -424,20 +436,27 @@ iii. Output of your finished dataset:
 		| McDonald's                             | WiFi        | free          | AZ    |   2.0 |            8 |
 		| McDonald's                             | GoodForKids | 1             | AZ    |   2.0 |            8 |
 		+----------------------------------------+-------------+---------------+-------+-------+--------------+
+
 iv. Provide the SQL code you used to create your final dataset:
 
-			select b.name as business, 
-					a.name as attribute,
-					a.value,
-					b.state, 
-					b.stars,
-					b.review_count
-			from business b
-			inner join category c on c.business_id = b.id
-			inner join attribute a on a.business_id = b.id
-			where (a.name like  'alcohol' or 
-					a.name like 'wifi' or 
-					a.name like 'goodforkids') and 
-					category = 'Restaurants' and b.state ='AZ'
-			order by  stars desc ,
-						review_count 
+SELECT b.name AS business
+	,a.name AS attribute
+	,a.value
+	,b.STATE
+	,b.stars
+	,b.review_count
+FROM business b
+INNER JOIN category c ON c.business_id = b.id
+INNER JOIN attribute a ON a.business_id = b.id
+WHERE (
+		a.name LIKE 'alcohol'
+		OR a.name LIKE 'wifi'
+		OR a.name LIKE 'goodforkids'
+		)
+	AND category = 'Restaurants'
+	AND b.STATE = 'AZ'
+ORDER BY stars DESC
+	,review_count
+		
+		
+(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ(づ｡◕‿‿◕｡)づ
