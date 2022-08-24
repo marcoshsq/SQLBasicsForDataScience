@@ -14,29 +14,44 @@ that contains the course data.
 
 -- *************************************************************************************************************************************************
 
-Exercise 1: Using any methods you like determine if you can you trust this events table.
-Starter Code:
+/* Exercise 1: Using any methods you like determine if you can you trust this events table.
+
+Code: */
+
+
 
 -- *************************************************************************************************************************************************
 
-Exercise 2:
-Using any methods you like, determine if you can you trust this events table. (HINT: When did
+/* Exercise 2: Using any methods you like, determine if you can you trust this events table. (HINT: When did
 we start recording events on mobile)
-Starter Code:
+
+Code: */
+
+
 
 -- *************************************************************************************************************************************************
 
-Exercise 3: Imagine that you need to count item views by day. You found this table
+/* Exercise 3: Imagine that you need to count item views by day. You found this table
 item_views_by_category_temp - should you use it to answer your questiuon?
-Starter Code:
+
+Code: */
+
+
 
 -- *************************************************************************************************************************************************
 
-Exercise 4: Using any methods you like, decide if this table is ready to be used as a source of
-truth.
-Starter Code:
+/* Exercise 4: Using any methods you like, decide if this table is ready to be used as a source of
+truth. 
+
+Code: */
+
+
 
 -- *************************************************************************************************************************************************
 
-Exercise 5: Is this the right way to join orders to users? Is this the right way this join.
-Starter Code:
+/* Exercise 5: Is this the right way to join orders to users? Is this the right way this join.
+
+Code: */
+
+
+
