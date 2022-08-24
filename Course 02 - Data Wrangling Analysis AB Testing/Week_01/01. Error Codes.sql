@@ -63,7 +63,7 @@ Code:*/
 
 SELECT COUNT(DISTINCT event_id) AS events
 FROM dsv1069.events
-WHERE event_name = "view_item"
+WHERE event_name = "view_item";
 
 --************************************************************************************************************
 
@@ -75,7 +75,7 @@ below runs, but it isn’t right. Determine what is wrong and correct the error 
 Code:*/
 
 SELECT COUNT(DISTINCT orders.item_id) AS item_count
-FROM dsv1069.orders
+FROM dsv1069.orders;
 
 --************************************************************************************************************
 
@@ -85,7 +85,11 @@ FROM dsv1069.orders
 
 Code:*/
 
-
+SELECT users.id AS user_id
+	,MIN(orders.paid_at) AS min_paid_at
+FROM dsv1069.users
+LEFT OUTER JOIN dsv1069.users.orders ON orders.user_id = user.id
+ORDER BY user.id;
 
 --************************************************************************************************************
 
@@ -95,3 +99,10 @@ Code:*/
 isn’t right. Check to make sure the number of users adds up, and if not, fix the query.
 
 Code:*/
+
+SELECT users.id AS user_id, MIN(event_time) AS first_view
+FROM dsv1069.users
+LEFT OUTER JOIN dsv1069.events
+ON events.user_id = user.id
+WHERE events.event_name = "view_user_profile"
+GROUP BY users.id
