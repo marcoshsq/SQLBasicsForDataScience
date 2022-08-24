@@ -13,22 +13,30 @@ that contains the course data.
 
 -- ****************************************************************************************
 
-Exercise 1: We’ll be using the users table to answer the question “How many new users are
+/* Exercise 1: We’ll be using the users table to answer the question “How many new users are
 added each day?“. Start by making sure you understand the columns in the table.
-Starter Code:
-SELECT * FROM dsv1069.users
+
+Code:*/
+
+SELECT * 
+FROM dsv1069.users
 
 -- ****************************************************************************************
 
-Exercise 2: WIthout worrying about deleted user or merged users, count the number of users
-added each day.
-Starter Code: (none)
+/* Exercise 2: WIthout worrying about deleted user or merged users, count the number of users
+added each day. 
+Code:*/
+
+SELECT *
+FROM dsv1069.users
 
 -- ****************************************************************************************
 
-Exercise 3: Consider the following query. Is this the right way to count merged or deleted
+/* Exercise 3: Consider the following query. Is this the right way to count merged or deleted
 users? If all of our users were deleted tomorrow what would the result look like?
-Starter Code:
+
+Code: */
+
 SELECT
 date(created_at) AS day,
 COUNT(*) AS users
@@ -43,31 +51,41 @@ date(created_at)
 
 -- ****************************************************************************************
 
-Exercise 4: Count the number of users deleted each day. Then count the number of users
+/* Exercise 4: Count the number of users deleted each day. Then count the number of users
 removed due to merging in a similar way.
-Starter Code: (Use the result from #2 as a guide)
+
+Code: (Use the result from #2 as a guide) */
+
+
 
 -- ****************************************************************************************
 
-Exercise 5: Use the pieces you’ve built as subtables and create a table that has a column for
+/* Exercise 5: Use the pieces you’ve built as subtables and create a table that has a column for
 the date, the number of users created, the number of users deleted and the number of users
 merged that day.
-Starter Code:
-(none)
+
+Code: */
+
+
 
 -- ****************************************************************************************
 
-Exercise 6: Refine your query from #5 to have informative column names and so that null
+/* Exercise 6: Refine your query from #5 to have informative column names and so that null
 columns return 0.
-Starter Code: (none)
+
+Code: */
+
+
 
 -- ****************************************************************************************
 
-Exercise 7:
-What if there were days where no users were created, but some users were deleted or merged.
+/* Exercise 7: What if there were days where no users were created, but some users were deleted or merged.
 Does the previous query still work? No, it doesn’t. Use the dates_rollup as a backbone for this
 query, so that we won’t miss any dates.
-Starter Code:
-SELECT * FROM dsv1069.dates_rollup
+
+Code: */
+
+SELECT * 
+FROM dsv1069.dates_rollup
 
 -- ****************************************************************************************
