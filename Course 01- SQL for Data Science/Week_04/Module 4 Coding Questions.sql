@@ -15,6 +15,8 @@ SELECT CustomerId
 	,UPPER(City || " " || Country) AS CityCountry
 FROM Customers
 
+------------------------------------------------------------------------------------
+
 /* 02: Create a new employee user id by combining the first 4 letters 
 of the employee’s first name with the first 2 letters of the employee’s last name. 
 Make the new field lower case and pull each individual step to show your work.*/
@@ -26,6 +28,8 @@ SELECT FirstName
 	,LOWER(SUBSTR(FirstName, 1, 4)) || LOWER(SUBSTR(LastName, 1, 2)) AS userId
 FROM Employees
 
+------------------------------------------------------------------------------------
+
 -- 03: Show a list of employees who have worked for the company for 15 or more 
 -- years using the current date function. Sort by lastname ascending.
 
@@ -36,6 +40,8 @@ SELECT FirstName
 FROM Employees
 WHERE YearsWorked >= 15
 ORDER BY LastName ASC
+
+------------------------------------------------------------------------------------
 
 -- 04: Profiling the Customers table, answer the following question. 
 -- Are there any columns with null values? Indicate any below. Select all that apply.
@@ -64,6 +70,8 @@ SELECT COUNT(*)
 FROM Customers
 WHERE Company IS NULL;
 
+------------------------------------------------------------------------------------
+
 -- 05: Find the cities with the most customers and rank in descending order.
 
 SELECT City
@@ -71,6 +79,8 @@ SELECT City
 FROM Customers
 GROUP BY City
 ORDER BY COUNT(*) DESC
+
+------------------------------------------------------------------------------------
 
 /* 06: Create a new customer invoice id by combining a customer’s invoice id 
 with their first and last name while ordering your query in the following order: firstname, 
