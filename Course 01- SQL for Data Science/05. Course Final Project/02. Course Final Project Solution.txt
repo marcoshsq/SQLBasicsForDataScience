@@ -489,37 +489,37 @@ contributions to a good rating or have more comments in private.
 
 iii. Output of your finished dataset:
          
-        	+----------------------------------------+-------------+---------------+-------+-------+--------------+
-		| name                                   | name        | value         | state | stars | review_count |
-		+----------------------------------------+-------------+---------------+-------+-------+--------------+
-		| Charlie D's Catfish & Chicken          | Alcohol     | none          | AZ    |   4.5 |            7 |
-		| Charlie D's Catfish & Chicken          | WiFi        | no            | AZ    |   4.5 |            7 |
-		| Charlie D's Catfish & Chicken          | GoodForKids | 1             | AZ    |   4.5 |            7 |
-		| Bootleggers Modern American Smokehouse | Alcohol     | full_bar      | AZ    |   4.0 |          431 |
-		| Bootleggers Modern American Smokehouse | WiFi        | no            | AZ    |   4.0 |          431 |
-		| Bootleggers Modern American Smokehouse | GoodForKids | 1             | AZ    |   4.0 |          431 |
-		| The Cider Mill                         | Alcohol     | full_bar      | AZ    |   4.0 |           91 |
-		| The Cider Mill                         | WiFi        | no            | AZ    |   4.0 |           91 |
-		| The Cider Mill                         | GoodForKids | 1             | AZ    |   4.0 |           91 |
-		| Nabers Music, Bar & Eats               | Alcohol     | full_bar      | AZ    |   4.0 |           75 |
-		| Senor Taco                             | Alcohol     | none          | AZ    |   3.5 |           83 |
-		| Senor Taco                             | WiFi        | no            | AZ    |   3.5 |           83 |
-		| Senor Taco                             | GoodForKids | 1             | AZ    |   3.5 |           83 |
-		| Five Guys                              | Alcohol     | none          | AZ    |   3.5 |           63 |
-		| Five Guys                              | WiFi        | no            | AZ    |   3.5 |           63 |
-		| Five Guys                              | GoodForKids | 1             | AZ    |   3.5 |           63 |
-		| Gallagher's                            | Alcohol     | full_bar      | AZ    |   3.0 |           60 |
-		| Gallagher's                            | WiFi        | free          | AZ    |   3.0 |           60 |
-		| Gallagher's                            | GoodForKids | 1             | AZ    |   3.0 |           60 |
-		| Mango Flats                            | Alcohol     | beer_and_wine | AZ    |   2.5 |            5 |
-		| Mango Flats                            | WiFi        | free          | AZ    |   2.5 |            5 |
-		| Mango Flats                            | GoodForKids | 1             | AZ    |   2.5 |            5 |
-		| Famous Sam's                           | Alcohol     | full_bar      | AZ    |   2.5 |            3 |
-		| Famous Sam's                           | GoodForKids | 0             | AZ    |   2.5 |            3 |
-		| McDonald's                             | Alcohol     | none          | AZ    |   2.0 |            8 |
-		| McDonald's                             | WiFi        | free          | AZ    |   2.0 |            8 |
-		| McDonald's                             | GoodForKids | 1             | AZ    |   2.0 |            8 |
-		+----------------------------------------+-------------+---------------+-------+-------+--------------+
++----------------------------------------+-------------+---------------+-------+-------+--------------+
+| name                                   | name        | value         | state | stars | review_count |
++----------------------------------------+-------------+---------------+-------+-------+--------------+
+| Charlie D's Catfish & Chicken          | Alcohol     | none          | AZ    |   4.5 |            7 |
+| Charlie D's Catfish & Chicken          | WiFi        | no            | AZ    |   4.5 |            7 |
+| Charlie D's Catfish & Chicken          | GoodForKids | 1             | AZ    |   4.5 |            7 |
+| Bootleggers Modern American Smokehouse | Alcohol     | full_bar      | AZ    |   4.0 |          431 |
+| Bootleggers Modern American Smokehouse | WiFi        | no            | AZ    |   4.0 |          431 |
+| Bootleggers Modern American Smokehouse | GoodForKids | 1             | AZ    |   4.0 |          431 |
+| The Cider Mill                         | Alcohol     | full_bar      | AZ    |   4.0 |           91 |
+| The Cider Mill                         | WiFi        | no            | AZ    |   4.0 |           91 |
+| The Cider Mill                         | GoodForKids | 1             | AZ    |   4.0 |           91 |
+| Nabers Music, Bar & Eats               | Alcohol     | full_bar      | AZ    |   4.0 |           75 |
+| Senor Taco                             | Alcohol     | none          | AZ    |   3.5 |           83 |
+| Senor Taco                             | WiFi        | no            | AZ    |   3.5 |           83 |
+| Senor Taco                             | GoodForKids | 1             | AZ    |   3.5 |           83 |
+| Five Guys                              | Alcohol     | none          | AZ    |   3.5 |           63 |
+| Five Guys                              | WiFi        | no            | AZ    |   3.5 |           63 |
+| Five Guys                              | GoodForKids | 1             | AZ    |   3.5 |           63 |
+| Gallagher's                            | Alcohol     | full_bar      | AZ    |   3.0 |           60 |
+| Gallagher's                            | WiFi        | free          | AZ    |   3.0 |           60 |
+| Gallagher's                            | GoodForKids | 1             | AZ    |   3.0 |           60 |
+| Mango Flats                            | Alcohol     | beer_and_wine | AZ    |   2.5 |            5 |
+| Mango Flats                            | WiFi        | free          | AZ    |   2.5 |            5 |
+| Mango Flats                            | GoodForKids | 1             | AZ    |   2.5 |            5 |
+| Famous Sam's                           | Alcohol     | full_bar      | AZ    |   2.5 |            3 |
+| Famous Sam's                           | GoodForKids | 0             | AZ    |   2.5 |            3 |
+| McDonald's                             | Alcohol     | none          | AZ    |   2.0 |            8 |
+| McDonald's                             | WiFi        | free          | AZ    |   2.0 |            8 |
+| McDonald's                             | GoodForKids | 1             | AZ    |   2.0 |            8 |
++----------------------------------------+-------------+---------------+-------+-------+--------------+
 
 iv. Provide the SQL code you used to create your final dataset:
 
