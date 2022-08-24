@@ -12,33 +12,50 @@ that contains the course data.
 
 */
 
-Exercise 0: Count how many users we have
-Starter Code:
+-- ********************************************************************************************************************
 
-Exercise 1: Find out how many users have ever ordered
-Starter Code:
+-- Exercise 0: Count how many users we have
 
-Exercise 2:
---Goal find how many users have reordered the same item
-Starter Code:
+-- Code:
 
-Exercise 3:
---Do users even order more than once?
-Starter Code:
+-- ********************************************************************************************************************
 
-Exercise 4:
---Orders per item
-Starter Code:
+-- Exercise 1: Find out how many users have ever ordered
 
-Exercise 5:
---Orders per category
-Starter Code:
+-- Code:
 
-Exercise 6:
---Goal: Do user order multiple things from the same category?
-Starter Code:
+-- ********************************************************************************************************************
 
-Exercise 7:
---Goal: Find the average time between orders
---Decide if this analysis is necessary
-Starter Code:
+-- Exercise 2: Goal find how many users have reordered the same item
+
+-- Code:
+
+-- ********************************************************************************************************************
+
+-- Exercise 3: Do users even order more than once?
+
+-- Code:
+
+-- ********************************************************************************************************************
+
+-- Exercise 4: Orders per item
+
+-- Code:
+
+-- ********************************************************************************************************************
+
+-- Exercise 5: Orders per category
+
+-- Code:
+
+-- ********************************************************************************************************************
+
+-- Exercise 6: Goal: Do user order multiple things from the same category?
+
+-- Code:
+
+-- ********************************************************************************************************************
+
+-- Exercise 7: Goal: Find the average time between orders and Decide if this analysis is necessary!
+
+-- Code:
