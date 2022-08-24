@@ -28,6 +28,11 @@ viii. photo table = 10000
 ix. review table = 10000 
 x. tip table = 10000
 xi. user table = 10000
+
+SQL code used to arrive at answer:
+
+SELECT COUNT(*)
+FROM table_name (Table names are found in the schema.)
 	
 ******************************************************************************************************************************************************************
 
@@ -46,6 +51,11 @@ x. Friend = 11 (user_id)
 xi. Elite_years = 2780 (user_id)
 
 Note: Primary Keys are denoted in the ER-Diagram with a yellow key icon.	
+
+SQL code used to arrive at answer:
+
+SELECT COUNT(DISTINCT(key))
+FROM table_name (Table names are found in the schema.)
 
 ******************************************************************************************************************************************************************
 
@@ -77,7 +87,7 @@ WHERE id IS NULL
 	OR compliment_cool IS NULL
 	OR compliment_funny IS NULL
 	OR compliment_writer IS NULL
-	OR compliment_photos IS NULL
+	OR compliment_photos IS NULL;
                                   
 ******************************************************************************************************************************************************************
 	
@@ -107,13 +117,13 @@ v. Table: User, Column: Review_count
 
 5. List the cities with the most reviews in descending order:
 
-	SQL code used to arrive at answer:
-        select 
-        city
-        ,sum(review_count)
-        from business
-        group by city
-        order by sum(review_count) desc;
+SQL code used to arrive at answer:
+
+SELECT city
+	,sum(review_count)
+FROM business
+GROUP BY city
+ORDER BY sum(review_count) DESC;
 	
 	
 Copy and Paste the Result Below:
@@ -150,7 +160,6 @@ Copy and Paste the Result Below:
 
 (Output limit exceeded, 25 of 362 total rows shown)
 
-
 ******************************************************************************************************************************************************************
 	
 6. Find the distribution of star ratings to the business in the following cities:
@@ -158,13 +167,12 @@ Copy and Paste the Result Below:
 i. Avon
 
 SQL code used to arrive at answer:
-select 
-stars as StarRating
-,count(stars) 
-from business as b
-where city='Avon'
-group by stars
 
+SELECT stars AS StarRating
+	,count(stars)
+FROM business AS b
+WHERE city = 'Avon'
+GROUP BY stars;
 
 Copy and Paste the Resulting Table Below (2 columns â€“ star rating and count):
 +-------+-----------+
