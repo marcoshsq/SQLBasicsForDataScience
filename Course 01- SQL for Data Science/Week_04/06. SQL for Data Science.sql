@@ -13,3 +13,14 @@ Subject Area Understanding
 Always ask questions about the businees problems you want to solve.
 
 */
+
+/* Profiling Data
+
+- Get into details of your data;
+- Create a data model, and map the fields and tables;
+- Consider JOINS and calculations;
+- Understand any data quality or format issues;
+- Start with SELECT
+- Test along the way
+
+*/
