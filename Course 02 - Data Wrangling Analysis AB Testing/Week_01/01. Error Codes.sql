@@ -100,9 +100,30 @@ isn’t right. Check to make sure the number of users adds up, and if not, fix t
 
 Code:*/
 
-SELECT users.id AS user_id, MIN(event_time) AS first_view
-FROM dsv1069.users
-LEFT OUTER JOIN dsv1069.events
-ON events.user_id = user.id
-WHERE events.event_name = "view_user_profile"
-GROUP BY users.id
+SELECT (
+		CASE 
+			WHEN first_view IS NULL
+				THEN FALSE
+			ELSE TRUE
+			END
+		) AS has_viewed_profile_page
+	,COUNT(user_id) AS users
+
+FROM (
+	SELECT users.id AS user_id
+		,MIN(event_time) AS first_view
+	
+	FROM dsv1069.users
+	LEFT OUTER JOIN dsv1069.events ON events.user_id = user.id
+		AND events.event_name = "view_user_profile"
+	
+	GROUP BY users.id
+	) first_profiles_views
+
+GROUP BY (
+	CASE 
+		WHEN first_view IS NULL
+			THEN FALSE
+		ELSE TRUE
+		END
+	);
