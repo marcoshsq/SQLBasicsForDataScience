@@ -18,8 +18,11 @@ addresses, but only for non-deleted users.
 
 Code:*/
 
-SELECT *
+SELECT 
+  id AS user_id
+	,email_address
 FROM dsv1069.users
+WHERE deleted_at IS NULL
 
 --************************************************************************************************************
 
