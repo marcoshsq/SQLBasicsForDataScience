@@ -22,7 +22,7 @@ SELECT
   id AS user_id
 	,email_address
 FROM dsv1069.users
-WHERE deleted_at IS NULL
+WHERE deleted_at IS NULL;
 
 --************************************************************************************************************
 
@@ -30,9 +30,14 @@ WHERE deleted_at IS NULL
 
 --Goal: Use the items table to count the number of items for sale in each category
 
-Code: (none)*/
+Code:*/
 
-
+SELECT 
+  category
+	,COUNT(id) AS item_count
+FROM dsv1069.items
+GROUP BY category
+ORDER BY item_count DESC;
 
 --************************************************************************************************************
 
@@ -41,7 +46,7 @@ Code: (none)*/
 --Goal: Select all of the columns from the result when you JOIN the users table to the orders
 table
 
-Code: (none)*/
+Code:*/
 
 
 
