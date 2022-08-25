@@ -43,7 +43,9 @@ item_views_by_category_temp - should you use it to answer your questiuon?
 
 Code: */
 
-
+SELECT COUNT(DISTINCT event_id) AS event_count
+FROM dsv1069.events
+WHERE event_name = 'view_item';
 
 -- *************************************************************************************************************************************************
 
@@ -52,13 +54,20 @@ truth.
 
 Code: */
 
-
+SELECT DATE (event_time) AS DATE
+	,platform
+	,COUNT(user_id) AS users
+FROM dsv1069.events
+GROUP BY DATE
+	,platform;
 
 -- *************************************************************************************************************************************************
 
 /* Exercise 5: Is this the right way to join orders to users? Is this the right way this join.
 
+
 Code: */
 
-
-
+SELECT COUNT(*)
+FROM dsv1069.orders
+JOIN dsv1069.users ON orders.user_id = COALESCE(users.parent_user_id, user_id)
