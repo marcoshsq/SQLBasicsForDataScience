@@ -18,8 +18,11 @@ added each day?“. Start by making sure you understand the columns in the table
 
 Code:*/
 
-SELECT * 
+SELECT DATE (created_at) AS day
+	,COUNT(*) AS users
 FROM dsv1069.users
+GROUP BY day
+ORDER BY day ASC;
 
 -- ****************************************************************************************
 
@@ -27,8 +30,11 @@ FROM dsv1069.users
 added each day. 
 Code:*/
 
-SELECT *
+SELECT DATE (created_at) AS day
+	,COUNT(id) AS num_users
 FROM dsv1069.users
+GROUP BY day
+ORDER BY day ASC;
 
 -- ****************************************************************************************
 
@@ -37,17 +43,15 @@ users? If all of our users were deleted tomorrow what would the result look like
 
 Code: */
 
-SELECT
-date(created_at) AS day,
-COUNT(*) AS users
-FROM
-dsv1069.users
-WHERE
-deleted_at IS NULL
-AND
-(id <> parent_user_id OR parent_user_id IS NULL)
-GROUP BY
-date(created_at)
+SELECT DATE (created_at) AS day
+	,COUNT(*) AS users
+FROM dsv1069.users
+WHERE deleted_at IS NULL
+	AND (
+		id <> parent_user_id
+		OR parent_user_id IS NULL
+		)
+GROUP BY day;
 
 -- ****************************************************************************************
 
@@ -56,7 +60,11 @@ removed due to merging in a similar way.
 
 Code: (Use the result from #2 as a guide) */
 
-
+SELECT DATE (created_at) AS day
+	,COUNT(*) AS users
+FROM dsv1069.users
+WHERE deleted_at IS NOT NULL
+GROUP BY day;
 
 -- ****************************************************************************************
 
@@ -66,7 +74,32 @@ merged that day.
 
 Code: */
 
-
+SELECT new.day
+	,new.new_added_users
+	,COALESCE(deleted.deleted_users, 0) AS deleted_users
+	,COALESCE(merged.merged_users, 0) AS merged_users
+	,(new.new_added_users - COALESCE(deleted.deleted_users, 0) - COALESCE(merged.merged_users, 0)) AS net_added_users
+FROM (
+	SELECT DATE (created_at) AS day
+		,COUNT(*) AS new_added_users
+	FROM dsv1069.users
+	GROUP BY day
+	) new
+LEFT JOIN (
+	SELECT DATE (created_at) AS day
+		,COUNT(*) AS deleted_users
+	FROM dsv1069.users
+	WHERE deleted_at IS NOT NULL
+	GROUP BY day
+	) deleted ON deleted.day = new.day
+LEFT JOIN (
+	SELECT DATE (merged_at) AS day
+		,COUNT(*) AS merged_users
+	FROM dsv1069.users
+	WHERE id <> parent_user_id
+		AND parent_user_id IS NOT NULL
+	GROUP BY day
+	) merged ON merged.day = new.day;
 
 -- ****************************************************************************************
 
