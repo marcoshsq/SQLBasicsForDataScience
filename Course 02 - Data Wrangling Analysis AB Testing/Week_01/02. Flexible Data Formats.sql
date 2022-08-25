@@ -15,12 +15,31 @@ Goal: Write a query to format the view_item event into a table with the appropri
 
 Code:*/
 
-SELECT event_id, event_time, "user_id", platform, (CASE WHEN paramater_name = item_id THEN CAST(paramater_value AS INT) ELSE NULL END) AS time_id, 
-(CASE WHEN paramater_name = "referrer" THEN paramater_value ELSE NULL END) AS referrer
+SELECT event_id
+	,event_time
+	,user_id
+	,platform
+	,(
+		CASE 
+			WHEN paramater_name = item_id
+				THEN CAST(paramater_value AS INT)
+			ELSE NULL
+			END
+		) AS time_id
+	,(
+		CASE 
+			WHEN paramater_name = "referrer"
+				THEN paramater_value
+			ELSE NULL
+			END
+		) AS referrer
 FROM dsv1069.events
 WHERE event_name = "view_time"
-ORDER BY event_id
-
+GROUP BY event_id
+	,event_time
+	,user_id
+	,platform;
+  
 -- *************************************************************************************************************************************************
 
 /* Exercise 2:
