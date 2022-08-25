@@ -18,7 +18,10 @@ that contains the course data.
 
 Code: */
 
-
+SELECT DATE (event_time) AS DATE
+	,COUNT(*)
+FROM dsv1069.events_201701
+GROUP BY DATE (event_time);
 
 -- *************************************************************************************************************************************************
 
@@ -27,7 +30,11 @@ we start recording events on mobile)
 
 Code: */
 
-
+SELECT DATE (event_time) AS DATE
+  ,event_name
+	,COUNT(*)
+FROM dsv1069.events_201701
+GROUP BY DATE (event_time);
 
 -- *************************************************************************************************************************************************
 
