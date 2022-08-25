@@ -14,9 +14,14 @@ SELECT event_id
 				THEN paramater_value
 			ELSE NULL
 			END) AS referrer
+
 FROM events
+
 WHERE event_name = "view_item"
+
 GROUP BY event_id
 	,event_time
 	,user_id
 	,platform
+
+ORDER BY event_id;
