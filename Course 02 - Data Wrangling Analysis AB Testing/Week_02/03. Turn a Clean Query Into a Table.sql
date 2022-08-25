@@ -36,4 +36,10 @@ GROUP BY event_id
 	,platform
 ORDER BY event_id;
 
+-- Quiz: Which of the following table methods allows you to specify data types?
 
+CREATE TABLE    
+
+  example_table 
+
+( column_name ….)  
