@@ -23,3 +23,14 @@ GROUP BY event_id
 	,user_id
 	,platform
 ORDER BY event_id;
+
+
+-- Here we create the table structure:
+CREATE TABLE "view_item_event" (
+	event_id VARCHAR(32) NOT NULL PRIMARY KEY
+	,event_time VARCHAR(26)
+	,user_id INT (10)
+	,platform VARCHAR(10)
+	,item_id INT (10)
+	,referrer VARCHAR(17)
+	);
