@@ -1,19 +1,17 @@
-1. W​hat type of table is "newTable"?
+Dive Deeper: 
 
-- EXTERNAL
+Look deeper into the features you are investigating, consider:
 
-2. H​ow many rows are in "newTable"?
+- Relationships / Correlation, Pearson Correlation; 
+- Linear Regression for future prediction (if the relationship is linear);
+- Textual Analysis for TF-IDF (Term Frequency-Inverse Document Frequency; Row-based and column-based, stop-word removal?.
+- Specify 1-2 correlations you discovered;
+- List the fields that you found to be correlated and describe what you learned from these correlations.
 
-- 191039
-
-3. W​hat is the "Battalion" of the first entry in the sorted table?
-
-- B01
-
-4. W​as this query faster or slower on the table with increased partitions?
-
-- Slower
-
-5. D​oes the data stored within the table still exist at the original location ('dbfs:/tmp/newTableLoc') after you dropped the table?
-
-- Yes
+Go Broader:
+                               
+- Expand the features you are investigating. Look for connections/relationships that you may have initially missed;
+- What jumps out at you now?.
+- Use the descriptive stats to point you to features that you may now want to consider;
+- What key terms did you discover in any text analysis, for whom? 
+- Any themes? If you are not analyzing text, summarize what other things you are considering in your analysis?
